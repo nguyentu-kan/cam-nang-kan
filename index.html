@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#12395C">
+<meta name="robots" content="noindex,nofollow">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Cẩm nang KAN">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" type="image/png" href="icon-192.png">
+<title>Cẩm nang KAN</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap">
+<style>
+:root{--navy:#12395c;--ink:#14212e;--mut:#5b6b7a;--line:#dde5ec;--bg:#f2f6f9}
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.6 'Be Vietnam Pro',system-ui,sans-serif;background:var(--bg);color:var(--ink)}
+header{background:var(--navy);color:#fff;padding:44px 24px 40px;text-align:center}
+header b{display:block;font-size:34px;letter-spacing:6px}
+header small{display:block;font-size:11px;letter-spacing:3px;color:#9fb4c8;margin-top:2px}
+header h1{font-size:26px;margin:28px 0 8px;line-height:1.3}
+header p{margin:0 auto;max-width:560px;color:#dbe6f0}
+main{max-width:920px;margin:0 auto;padding:28px 20px 48px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{display:block;background:#fff;border:1px solid var(--line);border-top:5px solid var(--navy);border-radius:16px;padding:22px;color:inherit;text-decoration:none}
+.card h2{margin:0 0 6px;font-size:22px;color:var(--navy)}
+.card p{margin:0 0 14px;color:var(--mut);font-size:15px}
+.card em{font-style:normal;font-weight:700;color:var(--navy)}
+.card.duc{border-top-color:#a86408}.card.duc h2,.card.duc em{color:#a86408}
+.card.nhat{border-top-color:#b3202a}.card.nhat h2,.card.nhat em{color:#b3202a}
+.card.soon{border-top-color:#b8c4cf;opacity:.75;cursor:default}
+.card.soon em{color:var(--mut)}
+.note{margin-top:28px;font-size:14px;color:var(--mut);border-top:1px solid var(--line);padding-top:14px}
+@media(max-width:760px){.grid{grid-template-columns:1fr}header{padding:32px 16px}}
+</style>
+</head>
+<body>
+<header><b>KAN</b><small>KHẢI ÂN INTERNATIONAL</small>
+<h1>Cẩm nang tư vấn theo thị trường</h1>
+<p>Chọn thị trường để xem cẩm nang dành cho học viên và phụ huynh.</p></header>
+<main>
+<div class="grid">
+<a class="card" href="han/"><h2>Hàn Quốc</h2><p>Du học tiếng, cao đẳng, đại học, thạc sĩ (D-4, D-2) và làm việc (E-7).</p><em>Xem cẩm nang →</em></a>
+<a class="card duc" href="duc/"><h2>Đức</h2><p>Du học tiếng, du học nghề (Ausbildung) và các diện làm việc.</p><em>Xem cẩm nang →</em></a>
+<a class="card nhat" href="nhat/"><h2>Nhật Bản</h2><p>Du học, thực tập sinh, kỹ năng đặc định, kỹ thuật viên và kỹ sư.</p><em>Xem cẩm nang →</em></a>
+</div>
+</main>
+<script>if('serviceWorker' in navigator){addEventListener('load',function(){navigator.serviceWorker.register('sw.js').catch(function(){})})}</script>
+</body>
+</html>
