@@ -1,338 +1,93 @@
-<!DOCTYPE html>
-<html lang="vi">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#12233f">
-<meta name="robots" content="noindex,nofollow">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="Cẩm nang KAN">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
-<link rel="manifest" href="../manifest.webmanifest">
-<link rel="apple-touch-icon" href="../icon-180.png">
-<link rel="icon" type="image/png" href="../icon-192.png">
+<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#b3202a"><meta name="robots" content="noindex,nofollow"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Cẩm nang KAN"><link rel="manifest" href="../manifest.webmanifest"><link rel="apple-touch-icon" href="../icon-180.png"><link rel="icon" type="image/png" href="../icon-192.png"><title>Cẩm nang KAN: Nhật Bản</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap"><style>
+:root{--ac:#12395c;--ink:#14212e;--mut:#5b6b7a;--line:#dde5ec;--bg:#f2f6f9;--card:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font:17px/1.65 'Be Vietnam Pro',system-ui,sans-serif;background:var(--bg);color:var(--ink);padding-bottom:84px}
+.hd{position:sticky;top:0;z-index:20;background:var(--ac);color:#fff;display:flex;align-items:center;gap:12px;padding:10px 16px}
+.hd b{font-size:20px;letter-spacing:4px}.hd span{flex:1;font-size:15px;opacity:.9}
+.goi{background:#fff;color:var(--ac);text-decoration:none;font-weight:700;border-radius:999px;padding:8px 16px;font-size:15px;white-space:nowrap}
+main{max-width:900px;margin:0 auto;padding:20px 16px}
+.hero{padding:26px 0 8px}.hero h1{margin:0 0 8px;font-size:30px;line-height:1.25;color:var(--ac)}.hero p{margin:0;color:var(--mut)}
+.buoc-doc{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 0;padding:0;list-style:none}.buoc-doc li{background:#fff;border:1px solid var(--line);border-radius:999px;padding:4px 12px;font-size:14px;color:var(--mut)}
+section{margin:34px 0}section>.k{font-size:13px;font-weight:700;letter-spacing:.1em;color:var(--ac);text-transform:uppercase}
+h2{margin:4px 0 12px;font-size:25px;line-height:1.3}h3{margin:20px 0 8px;font-size:18px;color:var(--ac)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:14px 0}.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px}.stat b{display:block;font-size:19px;color:var(--ac)}.stat span{font-size:13.5px;color:var(--mut);line-height:1.4;display:block}
+.tw{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:14px;margin:10px 0}table{border-collapse:collapse;width:100%;font-size:15px;min-width:560px}th,td{padding:10px 12px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}th{background:#eaeff5;font-size:13.5px}tr:last-child td{border-bottom:0}td.n{text-align:right;white-space:nowrap}
+.note{font-size:14px;color:var(--mut);margin:8px 0}.box{background:#fff7e8;border:1px solid #f0d9a8;border-radius:12px;padding:14px 16px;margin:14px 0}
+ul.cs{margin:8px 0;padding-left:20px}ul.cs li{margin:4px 0}
+.nhom{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--ac);border-radius:14px;padding:14px 16px;margin:10px 0}.nhom h3{margin:0 0 4px}.nhom p{margin:0 0 8px}
+.nhom .ds{display:flex;flex-wrap:wrap;gap:8px}.nhom a{background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:4px 12px;font-size:14px;text-decoration:none;color:var(--ink)}
+.chon{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.chon a{display:block;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;text-decoration:none;color:var(--ink);font-weight:600}.chon a em{display:block;font-style:normal;font-weight:400;color:var(--ac);font-size:14px;margin-top:4px}
+details.the{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:10px 0}details.the>summary{cursor:pointer;padding:14px 16px;list-style:none}details.the>summary::-webkit-details-marker{display:none}
+.tag{display:inline-block;background:var(--ac);color:#fff;border-radius:6px;padding:1px 9px;font-size:13px;font-weight:700;margin-right:8px}.sum b{font-size:18px}.chip{display:block;color:var(--mut);font-size:14px;margin-top:4px}
+details.the[open]>summary{border-bottom:1px solid var(--line)}.the-body{padding:6px 16px 14px}
+dl{margin:0}dt{font-weight:700;margin-top:12px;font-size:14px;color:var(--ac)}dd{margin:2px 0 0}
+.gk{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:6px}.gk div{background:var(--bg);border-radius:10px;padding:10px 12px;font-size:15px}.gk b{display:block;margin-bottom:4px}
+details.sau{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:10px 0}details.sau>summary{cursor:pointer;padding:14px 16px;font-weight:700;color:var(--ac)}.sau-body{padding:0 16px 16px}
+.gl{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.gl div{background:var(--bg);border-radius:10px;padding:10px 12px;font-size:15px}.gl b{display:block;color:var(--ac)}.gl i{display:block;font-style:normal;font-weight:600;margin-bottom:2px}
+.tu{border-bottom:1.5px dotted var(--ac);cursor:help}.pop{position:absolute;z-index:40;max-width:300px;background:#14212e;color:#fff;border-radius:10px;padding:10px 12px;font-size:14px;line-height:1.5;box-shadow:0 6px 24px rgba(0,0,0,.25)}
+.st{display:flex;gap:12px;margin:10px 0}.st i{flex:0 0 28px;height:28px;border-radius:50%;background:var(--ac);color:#fff;font-style:normal;font-weight:700;display:grid;place-items:center;font-size:14px}.st span{flex:1}
+.col2{display:grid;grid-template-columns:1fr 1fr;gap:14px}.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+details.qa{background:var(--card);border:1px solid var(--line);border-radius:12px;margin:8px 0;padding:0 14px}details.qa summary{cursor:pointer;padding:12px 0;font-weight:600}details.qa p{margin:0 0 12px}
+.dock{position:fixed;left:0;right:0;bottom:0;z-index:30;background:#fff;border-top:1px solid var(--line);display:flex;justify-content:space-around;padding:6px 4px calc(6px + env(safe-area-inset-bottom))}.dock a{flex:1;text-align:center;text-decoration:none;color:var(--ink);font-size:13px;padding:6px 2px}.dock a b{display:block;color:var(--ac);font-size:15px}.dock a.goi2{background:var(--ac);color:#fff;border-radius:10px;margin:0 4px}.dock a.goi2 b{color:#fff}
+.warn{font-size:13.5px;color:var(--mut);border-top:1px solid var(--line);margin-top:30px;padding-top:12px}
+@media(max-width:700px){.stats{grid-template-columns:repeat(2,1fr)}.chon,.col2,.gl,.gk{grid-template-columns:1fr}h2{font-size:22px}.hero h1{font-size:25px}}
+@media(prefers-color-scheme:dark){:root{--ink:#e8eef4;--mut:#9fb0c0;--line:#2a3a4a;--bg:#0f1720;--card:#16212d}th{background:#1f2e3d}.gk div,.gl div,.nhom a{background:#1c2a38}.box{background:#2a2412;border-color:#5b4a1c}.dock{background:#16212d}.goi{background:#fff}}
+</style></head>
+<body data-ban-gon="1" style="--ac:#b3202a">
+<header class="hd"><b>KAN</b><span>Cẩm nang Nhật Bản</span><a class="goi" href="tel:0867090323">Gọi 0867 090 323</a></header>
+<main id="nd">
+<div class="hero"><h1>Du học và làm việc tại Nhật Bản</h1><p>Giúp người chưa biết gì hiểu nước Nhật, các hướng đi, và chọn đúng diện phù hợp với mình.</p><ul class="buoc-doc"><li>1. Nước Nhật Bản là gì</li><li>2. Có những hướng đi nào</li><li>3. Mình thuộc trường hợp nào</li><li>4. Thẻ từng diện</li><li>5. Chọn ngành, vùng</li><li>6. Các bước cùng KAN</li></ul></div>
 
+<section id="tong-quan"><div class="k">1 · Tổng quan</div><h2>Nước Nhật Bản là gì</h2><p>Nhật Bản là một trong những thị trường nhận người học và người lao động Việt Nam lớn nhất, với nhu cầu nhân lực ở nhiều ngành. Người Việt thường sang Nhật theo ba hướng: du học, làm việc theo kỹ năng (thực tập sinh, Đặc định), hoặc làm việc chuyên môn (Kỹ thuật viên, Kỹ sư). Tiếng Nhật quyết định lộ trình: N5 để học tiếng; N4 và N3 là yêu cầu phổ biến với diện Đặc định và kỹ thuật.</p>
+<div class="stats"><div class="stat"><b>~123 triệu</b><span>dân số (điều tra tháng 10/2025), tập trung quanh Tokyo, Osaka, Nagoya</span></div><div class="stat"><b>~693.800</b><span>người Việt đang sống tại Nhật (cuối tháng 6/2026)</span></div><div class="stat"><b>+2 giờ</b><span>Nhật sớm hơn Việt Nam 2 giờ; bay 5 đến 6 giờ</span></div><div class="stat"><b>170 đ</b><span>tương đương 1 JPY (tỷ giá tham chiếu của KAN)</span></div></div>
+<h3>Các thành phố và vùng lớn</h3><div class="tw"><table><tr><th>Thành phố, vùng</th><th>Điểm nổi bật</th><th>Thuận lợi</th><th>Khó khăn</th><th>Phù hợp với</th></tr><tr><td><b>Tokyo</b></td><td>Thủ đô, trung tâm kinh tế lớn nhất</td><td>Lương tối thiểu theo giờ cao nhất cả nước: 1.280 yên (năm tài chính 2026)</td><td>Chi phí sinh hoạt cao; giá thuê nhà loại cho người độc thân ở 23 quận liên tục lập mức cao nhất từ năm 2015 (At Home, 2026)</td><td>Người ưu tiên mức lương cao, chấp nhận chi phí cao</td></tr><tr><td><b>Osaka</b></td><td>Trung tâm kinh tế lớn thứ hai, phía Tây Nhật Bản</td><td>Lương tối thiểu theo giờ 1.231 yên</td><td>Giá thuê nhà loại cho người độc thân cũng liên tục lập mức cao nhất (At Home, 2026)</td><td>Người muốn làm việc ở đô thị lớn phía Tây</td></tr><tr><td><b>Nagoya (Aichi)</b></td><td>Vùng công nghiệp, ô tô</td><td>Dẫn đầu cả nước về số người Đặc định số 2: 751 người, chiếm 9,4% (ISA, cuối tháng 12/2025)</td><td>—</td><td>Người theo ngành công nghiệp, ô tô</td></tr><tr><td><b>Fukuoka</b></td><td>Trung tâm của đảo Kyushu, phía Tây Nhật Bản</td><td>—</td><td>—</td><td>—</td></tr><tr><td><b>Sapporo (Hokkaido)</b></td><td>Trung tâm của đảo Hokkaido, phía Bắc</td><td>—</td><td>Lương tối thiểu theo giờ 1.131 yên, thấp hơn mức trung bình cả nước (1.177 yên)</td><td>—</td></tr></table></div><p class="note">Lương tối thiểu: Bộ Y tế, Lao động và Phúc lợi Nhật Bản, kết quả thẩm định năm 2026 (trung bình cả nước 1.177 yên mỗi giờ, hiệu lực từ tháng 10 đến tháng 12/2026 tùy tỉnh). Dấu "—" nghĩa là chưa có số liệu đã kiểm chứng.</p>
+<h3>Cuộc sống</h3><ul class="cs"><li>Tiền tệ là yên Nhật (JPY). Tỷ giá thực tế thay đổi theo thời giá.</li><li>Người lao động diện kỹ thuật viên và kỹ sư có mức lương tương đương người Nhật và được bảo lãnh người thân.</li><li>Trường Nhật ngữ nhận học viên theo 4 kỳ mỗi năm (tháng 1, 4, 7 và 10).</li></ul>
+<p><b>Ngành đang thiếu người:</b> điều dưỡng, xây dựng, nông nghiệp, thực phẩm, máy móc, ô tô, lái xe và các vị trí kỹ thuật.</p><div class="box"><b>Tiếng Nhật quyết định lộ trình.</b> Mỗi diện yêu cầu một cấp tiếng Nhật tối thiểu; người chưa có tiếng Nhật vẫn có thể bắt đầu với du học hoặc thực tập sinh.</div></section>
 
-<title>Du học và làm việc tại Nhật Bản – Cẩm nang KAN</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap">
-<style>
-:root{--navy:#12233f;--side:#0d1a2e;--red:#b3202a;--gold:#f2b134;--bg:#f4f6f9;--ink:#14212e;--mut:#5b6b7a;--line:#dde5ec}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth;scroll-padding-top:16px}
-body{margin:0;font:16px/1.6 'Be Vietnam Pro',system-ui,sans-serif;background:var(--bg);color:var(--ink)}
-nav{position:fixed;inset:0 auto 0 0;width:224px;background:var(--side);padding:24px 12px;overflow:auto}
-nav b{display:block;color:#fff;font-size:22px;letter-spacing:2px;padding:0 12px 4px}
-nav small{display:block;color:#8aa0b5;font-size:10px;letter-spacing:1px;padding:0 12px 24px}
-nav a{display:block;color:#e6eef5;text-decoration:none;font-weight:500;font-size:15px;padding:11px 12px;border-radius:8px}
-nav a:hover,nav a.on{background:#1d3550}
-nav a.on{box-shadow:inset 3px 0 0 var(--gold)}
-main{margin-left:224px;padding:36px;max-width:1000px}
-.hero{background:var(--navy);color:#fff;border-radius:22px;padding:40px;position:relative;overflow:hidden}
-.hero{display:flex;flex-wrap:wrap;gap:24px;justify-content:space-between;align-items:center}
-.map{flex:0 0 200px;width:200px;height:auto}
-.stats,.three{display:grid;gap:14px;margin:14px 0}.stats{grid-template-columns:repeat(4,1fr)}.three{grid-template-columns:repeat(3,1fr)}
-.stat b{font-size:26px;color:var(--red);margin:0}.stat span{font-size:14px;color:var(--mut)}
-.hero h1{margin:0 0 14px;font-size:42px;line-height:1.2}
-.hero p{margin:0 0 18px;max-width:560px;font-size:18px;color:#dbe6f0}
-.hero span{font-size:12px;letter-spacing:2px;color:#9fb4c8;font-weight:700}
-.hero .kt{color:var(--gold);font-weight:700;letter-spacing:1px;margin-bottom:10px;font-size:14px}
-h2{font-size:30px;margin:48px 0 12px;line-height:1.25}
-h3{margin:0 0 6px;font-size:18px}
-.k{color:var(--red);font-size:12px;letter-spacing:2px;font-weight:700;margin-top:48px}
-.k+h2{margin-top:4px}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;text-decoration:none;color:inherit;display:block}
-.card b{display:block;margin-bottom:10px}
-.card em{font-style:normal;color:var(--red);font-weight:500}
-.card h3{color:var(--red)}.card p{margin:6px 0}.card ul{margin:8px 0;padding-left:18px}
-.prog{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;margin:16px 0}
-.tag{display:inline-block;background:#fbe6e8;color:var(--red);font-weight:700;border-radius:999px;padding:2px 12px;font-size:13px;margin-bottom:8px}
-dl{margin:12px 0 0;display:grid;grid-template-columns:130px 1fr;gap:8px 16px}
-dt{font-weight:700;color:var(--mut)}dd{margin:0}
-.note{margin-top:10px;font-size:15px;color:var(--mut)}
-.tw{overflow-x:auto;background:#fff;border:1px solid var(--line);border-radius:14px;margin:12px 0}
-table{border-collapse:collapse;width:100%;font-size:15px}
-th,td{padding:10px 14px;text-align:left;border-bottom:1px solid var(--line)}
-th{background:#eaeff5;white-space:nowrap}
-td.n{text-align:right;white-space:nowrap}
-details{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:8px 0}
-summary{font-weight:700;cursor:pointer}
-.warn{font-size:14px;color:var(--mut);border-top:1px solid var(--line);margin-top:40px;padding-top:14px}
-.box{background:#fbe9eb;border:1px solid #efc7cb;border-radius:12px;padding:16px;margin:14px 0}
-.two,.col2,.gl{display:grid;gap:14px;margin:14px 0;grid-template-columns:repeat(2,1fr)}
-.st{display:flex;gap:12px;margin-top:12px;align-items:flex-start}
-.st i{flex:0 0 28px;height:28px;border-radius:50%;background:var(--red);color:#fff;font-style:normal;font-weight:700;display:grid;place-items:center;font-size:14px}
-@media(max-width:860px){
-nav{position:static;width:auto;display:flex;gap:4px;overflow-x:auto;padding:10px}
-nav b,nav small{display:none}nav a{white-space:nowrap}
-main{margin:0;padding:16px}.hero{padding:24px}.hero h1{font-size:30px}.stats,.three{grid-template-columns:1fr}.map{width:150px;flex-basis:150px}
-.grid,.two,.col2,.gl{grid-template-columns:1fr}dl{grid-template-columns:1fr;gap:2px}dd{margin-bottom:8px}}
-.grp{margin:22px 0 6px;padding:8px 12px;border-left:5px solid #b3202a;background:#fbe9eb;font-weight:700}
-</style>
-</head>
-<body>
-<nav id="nav">
-<b>KAN</b><small>KHẢI ÂN INTERNATIONAL</small>
-<a href="#bat-dau">Bắt đầu</a><a href="#tu-ngu">Giải thích từ ngữ</a><a href="#nuoc-nhat">Nước Nhật</a><a href="#chon-dien">Chọn nhanh</a><a href="#lo-trinh">Lộ trình</a><a href="#nganh">Ngành nghề</a><a href="#vung">Vùng</a><a href="#so-sanh">So sánh các diện</a>
-<a href="#du-hoc">Du học</a><a href="#lao-dong">Làm việc</a><a href="#hieu-ro">Hiểu rõ từng diện</a><a href="#quy-trinh">Quy trình</a>
-<a href="#chi-phi">Chi phí</a><a href="#hoi-dap">Hỏi đáp</a><a href="#huong-dan">Cho tư vấn viên mới</a><a href="#lien-he">Liên hệ</a>
-</nav>
-<main>
-<section id="bat-dau">
-<div class="hero"><div><div class="kt">日本 · 留学 · 就労</div><h1>Du học và làm việc<br>tại Nhật Bản</h1>
-<p>Nhật Bản có nhiều hướng đi dành cho người học và người lao động: du học, thực tập sinh, kỹ năng đặc định, kỹ thuật viên và kỹ sư. Cẩm nang trình bày điều kiện, quy trình và chi phí do KAN áp dụng, giúp người đọc lựa chọn hướng đi phù hợp.</p>
-<span>CẨM NANG TƯ VẤN · KHẢI ÂN INTERNATIONAL</span></div><svg class="map" id="map" viewBox="0 0 230 300" role="img" aria-label="Bản đồ nước Nhật"></svg></div>
-<h2>Người đọc thuộc trường hợp nào? Vui lòng chọn một ô.</h2>
-<div class="grid">
-<a class="card" href="#du-hoc"><b>Từ 18 đến 32 tuổi, đã tốt nghiệp THPT, muốn đi học tiếng Nhật và học lên tại Nhật</b><em>Xem: Du học</em></a>
-<a class="card" href="#tts"><b>Từ 18 đến 37 tuổi, chưa có kinh nghiệm, muốn đi làm theo chương trình thực tập sinh</b><em>Xem: Thực tập sinh</em></a>
-<a class="card" href="#dd-moi"><b>Từ 18 đến 37 tuổi, chưa từng đến Nhật, muốn đi làm theo diện Đặc định</b><em>Xem: Đặc định số 1, đi mới</em></a>
-<a class="card" href="#dd-lai"><b>Từ 20 đến 37 tuổi, đã từng đến Nhật, muốn quay lại làm việc</b><em>Xem: Đặc định số 1, đi lại</em></a>
-<a class="card" href="#ktv"><b>Từ 22 đến 36 tuổi, tốt nghiệp cao đẳng hoặc đại học ngành kỹ thuật</b><em>Xem: Kỹ thuật viên</em></a>
-<a class="card" href="#ky-su"><b>Từ 22 đến 36 tuổi, tốt nghiệp cao đẳng hoặc đại học</b><em>Xem: Kỹ sư</em></a>
-</div>
-<p class="note">Trường hợp chưa xác định được lựa chọn phù hợp, vui lòng liên hệ hotline 0867 090 323 để được tư vấn viên hỗ trợ. Công ty CP Quốc tế Khải Ân (KAN) · 1018 Tô Ký, Trung Mỹ Tây, TP.HCM.</p>
+<section id="huong-di"><div class="k">2 · Hướng đi</div><h2>Có những hướng đi nào</h2><p>Các chương trình đi Nhật chia thành ba nhóm, xếp từ yêu cầu thấp đến cao. Người đọc xác định mình đang ở nhóm nào, sau đó xem thẻ diện tương ứng.</p><div class="nhom"><h3>Nhóm 1. Học tập</h3><p>Sang Nhật học tiếng tại trường Nhật ngữ, sau đó học lên theo trình độ.</p><div class="ds"><a href="#du-hoc" data-mo="du-hoc">Du học</a></div></div><div class="nhom"><h3>Nhóm 2. Làm việc theo kỹ năng</h3><p>Làm việc theo ngành nghề. Từ thực tập sinh có thể tiến lên Đặc định số 1, sau đó Đặc định số 2 (không giới hạn thời gian).</p><div class="ds"><a href="#tts" data-mo="tts">Thực tập sinh</a><a href="#dd-moi" data-mo="dd-moi">Đặc định số 1, đi mới</a><a href="#dd-lai" data-mo="dd-lai">Đặc định số 1, đi lại</a></div></div><div class="nhom"><h3>Nhóm 3. Làm việc chuyên môn</h3><p>Dành cho người có bằng cao đẳng, đại học. Visa không giới hạn thời hạn, được bảo lãnh người thân.</p><div class="ds"><a href="#ktv" data-mo="ktv">Kỹ thuật viên</a><a href="#ky-su" data-mo="ky-su">Kỹ sư</a></div></div></section>
+
+<section id="chon"><div class="k">3 · Chọn</div><h2>Mình thuộc trường hợp nào</h2><p>Bấm vào ô giống hoàn cảnh của mình nhất để xem thẻ diện tương ứng.</p><div class="chon"><a href="#du-hoc" data-mo="du-hoc">Từ 18 đến 32 tuổi, tốt nghiệp THPT, muốn sang Nhật học tiếng, sau đó học lên<em>Du học</em></a><a href="#tts" data-mo="tts">18 đến 37 tuổi, chưa từng đến Nhật, chưa có chứng chỉ<em>Thực tập sinh</em></a><a href="#dd-moi" data-mo="dd-moi">18 đến 37 tuổi, chưa từng đến Nhật, muốn làm việc lâu dài hơn<em>Đặc định số 1, đi mới</em></a><a href="#dd-lai" data-mo="dd-lai">20 đến 37 tuổi, đã từng đến Nhật<em>Đặc định số 1, đi lại</em></a><a href="#ktv" data-mo="ktv">Tốt nghiệp cao đẳng, đại học ngành kỹ thuật<em>Kỹ thuật viên</em></a><a href="#ky-su" data-mo="ky-su">Tốt nghiệp cao đẳng, đại học (kỹ thuật, ngoại ngữ, khách sạn...)<em>Kỹ sư</em></a><a href="#ktv" data-mo="ktv">Muốn đưa vợ hoặc chồng và con đi cùng<em>Kỹ thuật viên, Kỹ sư, hoặc Đặc định số 2 về sau</em></a><a href="#huong-di" data-mo="huong-di">Chưa rõ nên chọn ô nào<em>Xem lại các hướng đi</em></a></div></section>
+
+<section id="the-dien"><div class="k">4 · Thẻ diện</div><h2>Thẻ từng diện</h2><p class="note">Mỗi thẻ có cùng một khuôn: dành cho ai, điều kiện, thời gian, chi phí, sau khi sang, đi tiếp đến đâu. Bấm vào thẻ để mở.</p><details class="the" id="du-hoc"><summary class="sum"><span class="tag">Du học</span><b>Du học Nhật Bản (học tiếng và học lên)</b><span class="chip">Tiếng Nhật N5 · Học tiếng tối đa 2 năm · Từ 18 đến 32 tuổi</span></summary><div class="the-body"><dl><dt>Dành cho ai</dt><dd>Từ 18 đến 32 tuổi, tốt nghiệp THPT trở lên.</dd><dt>Điều kiện</dt><dd>Tiếng Nhật N5. Hồ sơ người bảo lãnh.</dd><dt>Các bước</dt><dd>Đăng ký (chọn kỳ nhập học 1, 4, 7 hoặc 10, chọn vùng, chọn trường) → chuẩn bị tiếng Nhật N5 và hồ sơ người bảo lãnh → nhập học theo kỳ đã đăng ký → tốt nghiệp trường tiếng, lên chuyên ngành theo lựa chọn → tìm việc trước khi visa hết hạn.</dd><dt>Chi phí năm đầu (tham khảo)</dt><dd>Khoảng 180 triệu đồng, gồm các khoản: học phí 1 năm trường Nhật ngữ 144,5 triệu đồng (850.000 JPY, tỷ giá tham chiếu 170); phí dịch vụ 15 triệu đồng; chứng thực bằng cấp, dịch thuật, gửi hồ sơ 5 triệu đồng; đào tạo tiếng Nhật và chỗ ở 5 đến 8 tháng 15 triệu đồng; phí xin visa 0,7 triệu đồng. Chi phí chia theo khoản và theo lịch của trường, không chia 3 lần.</dd><dt>Sau khi sang</dt><dd>Học tiếng tối đa 2 năm, sau đó học lên theo trình độ. Sau khi tốt nghiệp, người học đi xin việc trước khi visa hết hạn.</dd></dl></div></details><details class="the" id="tts"><summary class="sum"><span class="tag">Thực tập sinh</span><b>Thực tập sinh kỹ năng</b><span class="chip">Chưa cần chứng chỉ · 1, 3 hoặc 5 năm · KAN 86,5 đến 116,5 triệu đồng</span></summary><div class="the-body"><dl><dt>Dành cho ai</dt><dd>Từ 18 đến 37 tuổi, lao động phổ thông.</dd><dt>Điều kiện</dt><dd>Khai hồ sơ, khám sức khỏe, tập huấn tác phong Nhật, học chờ phỏng vấn 2 đến 4 tuần.</dd><dt>Các bước</dt><dd>Đăng ký → phỏng vấn (tay nghề, vấn đáp) → chờ visa, học tiếng Nhật N5, tác phong Nhật và chuyên ngành, kiểm tra tiếng theo tháng, tối thiểu 4 tháng → xuất cảnh.</dd><dt>Chi phí KAN</dt><dd>Công xưởng: 116,5 triệu đồng. Mộc, thủy sản: 96,5 triệu đồng. Xây dựng: 86,5 triệu đồng (đã gồm 1,5 triệu đồng chi phí cơ sở vật chất). Chia 3 lần: nhập học, đậu phỏng vấn, có COE.</dd><dt>Thu nhập tham khảo</dt><dd>Khoảng 30 triệu đồng mỗi tháng. Thu nhập tham khảo theo bảng lộ trình của KAN, chưa rõ trước hay sau thuế và không phải cam kết; thu nhập thực tế phụ thuộc đơn hàng, vùng và số giờ làm.</dd><dt>Sau khi sang</dt><dd>Học 1 tháng được hưởng trợ cấp, làm việc từ tháng thứ 2, nhận lương từ tháng thứ 3. Thực tập sinh số 1: 1 năm, có kỳ thi ở tháng thứ 8. Thực tập sinh số 2: năm 2 và năm 3, có kỳ thi ở năm thứ 3. Sau đó có thể chuyển lên Đặc định.</dd><dt>Đi tiếp đến đâu</dt><dd>Có thể tiến lên Đặc định số 1. Thời gian làm thực tập sinh không tính vào 5 năm làm việc theo yêu cầu xin vĩnh trú. Chương trình sẽ được thay bằng chế độ "Việc làm phát triển kỹ năng" (Ikusei), dự kiến từ 04/2027.</dd></dl><p class="note"><a href="#" data-von="0">Ước tính thu hồi vốn: khoảng 5 đến 7 tháng kể từ khi bắt đầu nhận lương (số ví dụ). Bấm để tính với số của mình.</a></p></div></details><details class="the" id="dd-moi"><summary class="sum"><span class="tag">Đặc định số 1</span><b>Đặc định số 1, đi mới (chưa từng đến Nhật)</b><span class="chip">Tiếng Nhật JFT N4 · Làm việc 5 năm · KAN 60 đến 108 triệu đồng</span></summary><div class="the-body"><dl><dt>Dành cho ai</dt><dd>Từ 18 đến 37 tuổi, chưa từng đến Nhật Bản.</dd><dt>Điều kiện</dt><dd>Chứng chỉ JFT N4 (khoảng 4 tháng). Chứng chỉ nghề (2 đến 3 tháng). Người chưa đủ chứng chỉ vẫn được tham gia phỏng vấn.</dd><dt>Các bước</dt><dd>Chọn ngành nghề, đăng ký → học lấy chứng chỉ → phỏng vấn → xuất cảnh sau 2 đến 6 tháng, về công ty tiếp nhận ngay sau khi nhập cảnh và làm việc sau 3 ngày.</dd><dt>Chi phí KAN</dt><dd>Điều dưỡng, xây dựng, nông nghiệp: 60 triệu đồng. Thực phẩm, máy móc: 70 triệu đồng. Lái xe: 90 triệu đồng (hỗ trợ học lái xe 10 triệu đồng). Ô tô: 108 triệu đồng (thấp hơn nếu đã có tiếng Nhật hoặc chứng chỉ). Chia 3 lần: nhập học, đậu phỏng vấn, có COE.</dd><dt>Thu nhập tham khảo</dt><dd>Khoảng 35 triệu đồng mỗi tháng. Thu nhập tham khảo theo bảng lộ trình của KAN, chưa rõ trước hay sau thuế và không phải cam kết; thu nhập thực tế phụ thuộc đơn hàng, vùng và số giờ làm.</dd><dt>Sau khi sang</dt><dd>Làm việc 5 năm. Từ năm thứ 3 có thể thi Đặc định số 2. Có thể chuyển việc khi đã thỏa thuận xong với công ty tiếp nhận.</dd><dt>Đi tiếp đến đâu</dt><dd>Từ năm thứ 3 có thể thi Đặc định số 2 (không giới hạn thời gian, được đưa vợ hoặc chồng và con nếu đủ điều kiện). Đặc định số 1 nhìn chung không được đưa người thân đi cùng và không tính vào 5 năm làm việc theo yêu cầu xin vĩnh trú.</dd></dl><p class="note"><a href="#" data-von="3">Ước tính thu hồi vốn: khoảng 3 đến 5 tháng kể từ khi bắt đầu nhận lương (số ví dụ). Bấm để tính với số của mình.</a></p></div></details><details class="the" id="dd-lai"><summary class="sum"><span class="tag">Đặc định số 1</span><b>Đặc định số 1, đi lại (đã từng đến Nhật)</b><span class="chip">Đúng ngành dùng lại hồ sơ cũ · KAN 22 đến 25 triệu đồng</span></summary><div class="the-body"><dl><dt>Dành cho ai</dt><dd>Từ 20 đến 37 tuổi, đã từng đến Nhật Bản.</dd><dt>Điều kiện</dt><dd>Đúng ngành nghề từng học, từng làm: nộp hồ sơ cũ và hồ sơ mới. Trái ngành: cần chứng chỉ phù hợp (N4 và chứng chỉ nghề).</dd><dt>Các bước</dt><dd>Đăng ký → kiểm tra tiếng → phỏng vấn → chờ visa 2 đến 6 tháng → xuất cảnh sau 2 đến 6 tháng, về công ty tiếp nhận ngay và làm việc sau 3 ngày.</dd><dt>Chi phí KAN</dt><dd>Điều dưỡng, xây dựng, nông nghiệp: 22 triệu đồng. Thực phẩm, máy móc: 25 triệu đồng. Chia 3 lần.</dd><dt>Thu nhập tham khảo</dt><dd>Khoảng 35 triệu đồng mỗi tháng. Thu nhập tham khảo theo bảng lộ trình của KAN, chưa rõ trước hay sau thuế và không phải cam kết; thu nhập thực tế phụ thuộc đơn hàng, vùng và số giờ làm.</dd><dt>Đi tiếp đến đâu</dt><dd>Làm việc 5 năm. Từ năm thứ 3 có thể thi Đặc định số 2. Có thể chuyển việc khi đã thỏa thuận xong với công ty tiếp nhận.</dd></dl><p class="note"><a href="#" data-von="6">Ước tính thu hồi vốn: khoảng 1 đến 2 tháng kể từ khi bắt đầu nhận lương (số ví dụ). Bấm để tính với số của mình.</a></p></div></details><details class="the" id="ktv"><summary class="sum"><span class="tag">Chuyên môn</span><b>Kỹ thuật viên</b><span class="chip">Tiếng Nhật từ N3 · Visa không giới hạn thời hạn · Từ 22 đến 36 tuổi</span></summary><div class="the-body"><dl><dt>Dành cho ai</dt><dd>Từ 22 đến 36 tuổi, tốt nghiệp cao đẳng hoặc đại học ngành kỹ thuật.</dd><dt>Điều kiện</dt><dd>Bằng thuộc ngành kỹ thuật, chuyên ngành đúng với ngành nghề của công ty tiếp nhận. Tiếng Nhật từ N3 (có chứng chỉ), N2 hoặc N1.</dd><dt>Các bước</dt><dd>Phỏng vấn → chờ COE khoảng 4 đến 6 tháng → xin visa.</dd><dt>Chi phí KAN</dt><dd>Kỹ sư kỹ thuật: 125 triệu đồng (chưa có tiếng Nhật), 100 triệu đồng (N4), 80 triệu đồng (N3). Chia 3 lần.</dd><dt>Sau khi sang</dt><dd>Visa cấp theo từng năm, không giới hạn thời hạn. Lương tương đương người Nhật. Được bảo lãnh người thân.</dd><dt>Đi tiếp đến đâu</dt><dd>Thời gian làm việc với tư cách này được tính vào yêu cầu 5 năm làm việc của hồ sơ vĩnh trú (nguyên tắc: lưu trú liên tục từ 10 năm, trong đó có ít nhất 5 năm với tư cách làm việc; có thêm điều kiện về thu nhập, thuế, bảo hiểm và người bảo lãnh, do cơ quan xuất nhập cảnh Nhật Bản quyết định).</dd></dl></div></details><details class="the" id="ky-su"><summary class="sum"><span class="tag">Chuyên môn</span><b>Kỹ sư</b><span class="chip">Tiếng Nhật từ N4 · Visa không giới hạn thời hạn · KAN 55 đến 98 triệu đồng</span></summary><div class="the-body"><dl><dt>Dành cho ai</dt><dd>Từ 22 đến 36 tuổi, tốt nghiệp cao đẳng hoặc đại học trở lên.</dd><dt>Điều kiện</dt><dd>Chuyên ngành kỹ thuật, hoặc ngoại ngữ, khách sạn và các ngành khác tùy đơn hàng. Tiếng Nhật từ N4 (có chứng chỉ), N3, N2 hoặc N1.</dd><dt>Các bước</dt><dd>Phỏng vấn → chờ COE khoảng 4 đến 12 tháng → xin visa.</dd><dt>Chi phí KAN</dt><dd>Kỹ sư Toyota, Mazda: 86 triệu đồng. NMF: 98 triệu đồng. Kỹ sư kinh tế (N2): 55 triệu đồng. Chia 3 lần.</dd><dt>Thu nhập tham khảo</dt><dd>Khoảng 35 triệu đồng mỗi tháng. Thu nhập tham khảo theo bảng lộ trình của KAN, chưa rõ trước hay sau thuế và không phải cam kết; thu nhập thực tế phụ thuộc đơn hàng, vùng và số giờ làm.</dd><dt>Sau khi sang</dt><dd>Visa cấp theo từng năm, không giới hạn thời hạn. Lương tương đương người Nhật. Được bảo lãnh người thân.</dd><dt>Đi tiếp đến đâu</dt><dd>Như diện Kỹ thuật viên: thời gian làm việc được tính vào hồ sơ vĩnh trú; được bảo lãnh người thân.</dd></dl><p class="note"><a href="#" data-von="7">Ước tính thu hồi vốn: khoảng 3 đến 4 tháng kể từ khi bắt đầu nhận lương (số ví dụ). Bấm để tính với số của mình.</a></p></div></details></section>
+
+<section id="nganh"><div class="k">5 · Ngành và vùng</div><h2>Chọn ngành và vùng</h2><p>Người đọc chọn ngành trước, sau đó chọn diện và vùng. Bảng gom các ngành KAN đang có đơn hàng và số liệu công bố của Cục Quản lý Xuất nhập cảnh Nhật Bản (ISA).</p><div class="tw"><table><tr><th>Ngành</th><th>Diện thường gặp</th><th>Điều cần biết</th></tr><tr><td><b>Điều dưỡng</b></td><td>Đặc định số 1</td><td>Ngành có nhiều người Đặc định số 1 nhất: 74.745 người (ISA, cuối tháng 3/2026). Ngoài bài thi kỹ năng và tiếng Nhật, có thêm bài thi tiếng Nhật điều dưỡng.</td></tr><tr><td><b>Sản xuất công nghiệp, máy móc</b></td><td>Đặc định số 1, Thực tập sinh (công xưởng), Kỹ thuật viên</td><td>Đứng thứ hai về số người Đặc định số 1: 59.038 người (ISA, cuối tháng 3/2026).</td></tr><tr><td><b>Xây dựng</b></td><td>Đặc định số 1, Thực tập sinh</td><td>51.055 người Đặc định số 1 (ISA, cuối tháng 3/2026). Công việc nặng, cần sức khỏe tốt.</td></tr><tr><td><b>Nông nghiệp</b></td><td>Đặc định số 1</td><td>Phí chương trình thấp hơn một số ngành khác.</td></tr><tr><td><b>Chế biến thực phẩm</b></td><td>Đặc định số 1 và số 2, Thực tập sinh</td><td>Ngành có nhiều người Đặc định số 2 nhất (28,3%, ISA cuối tháng 12/2025).</td></tr><tr><td><b>Ô tô</b></td><td>Đặc định số 1, Kỹ sư (đơn hàng Toyota, Mazda)</td><td>KAN có đơn hàng Tokutei ô tô theo từng mức: đi mới, có tiếng Nhật, đủ hai chứng chỉ.</td></tr><tr><td><b>Lái xe, vận tải</b></td><td>Đặc định số 1</td><td>Cần JLPT N3 (cao hơn các ngành khác). KAN có hỗ trợ học lái xe.</td></tr><tr><td><b>Mộc, thủy sản</b></td><td>Thực tập sinh</td><td>Chương trình thực tập sinh theo nhóm ngành riêng, phí thấp hơn nhóm công xưởng.</td></tr><tr><td><b>Kinh tế, ngoại ngữ, khách sạn</b></td><td>Kỹ sư</td><td>Dành cho người tốt nghiệp cao đẳng, đại học; ngành tùy đơn hàng.</td></tr></table></div><p class="note">Chọn vùng: so sánh lương theo hợp đồng, tiền nhà và chi phí đi lại của từng đơn hàng (xem bảng Các thành phố và vùng lớn). Tư vấn viên KAN nêu rõ vùng và doanh nghiệp tiếp nhận trước khi người học quyết định.</p></section>
+
+<section id="buoc"><div class="k">6 · Các bước cùng KAN</div><h2>Các bước cùng KAN</h2><p class="note">Các đợt phí chia 3 lần: nhập học, đậu phỏng vấn, có COE. Thời gian từng bước phụ thuộc vào đơn hàng, công ty tiếp nhận và cơ quan xét duyệt.</p><div class="col2"><div class="card"><h3 style="margin-top:0">Diện làm việc</h3><div class="st"><i>1</i><span>Đăng ký</span></div><div class="st"><i>2</i><span>Đào tạo</span></div><div class="st"><i>3</i><span>Phỏng vấn</span></div><div class="st"><i>4</i><span>Thông báo kết quả phỏng vấn</span></div><div class="st"><i>5</i><span>Hoàn thiện hồ sơ</span></div><div class="st"><i>6</i><span>Trình Cục Xuất nhập cảnh</span></div><div class="st"><i>7</i><span>Nhận COE (giấy chứng nhận tư cách lưu trú)</span></div><div class="st"><i>8</i><span>Xuất cảnh</span></div><div class="st"><i>9</i><span>Sau xuất cảnh: thực tập sinh được hưởng trợ cấp tháng đầu, làm việc từ tháng thứ 2, nhận lương từ tháng thứ 3</span></div></div><div class="card"><h3 style="margin-top:0">Du học</h3><div class="st"><i>1</i><span>Đăng ký, chọn kỳ nhập học (tháng 1, 4, 7 hoặc 10), chọn vùng và trường</span></div><div class="st"><i>2</i><span>Chuẩn bị tiếng Nhật N5 và hồ sơ người bảo lãnh</span></div><div class="st"><i>3</i><span>Nhập học, đào tạo tiếng Nhật và chỗ ở 5 đến 8 tháng</span></div><div class="st"><i>4</i><span>Nộp hồ sơ xin visa</span></div><div class="st"><i>5</i><span>Xuất cảnh, học tiếng tối đa 2 năm, sau đó học lên</span></div></div></div></section>
+
+<section id="hoi-dap"><div class="k">7 · Hỏi đáp và liên hệ</div><h2>Hỏi đáp</h2><details class="qa"><summary>Người chưa biết tiếng Nhật nên tham khảo diện nào?</summary><p>Người từ 18 đến 32 tuổi, tốt nghiệp THPT có thể đi du học và học tiếng Nhật từ đầu (cần đạt N5 trước khi nhập học). Với diện làm việc, người học có thể theo thực tập sinh hoặc Đặc định đi mới; tiếng Nhật được đào tạo trong thời gian chờ visa.</p></details><details class="qa"><summary>Người đã từng đến Nhật có thể quay lại làm việc không?</summary><p>Có thể, theo diện Đặc định số 1 đi lại, dành cho người từ 20 đến 37 tuổi. Làm đúng ngành nghề từng học hoặc từng làm thì dùng lại hồ sơ cũ; làm trái ngành cần chứng chỉ tiếng Nhật N4 và chứng chỉ nghề phù hợp.</p></details><details class="qa"><summary>Kỹ năng đặc định số 1 và số 2 khác nhau như thế nào?</summary><p>Đặc định số 1 có thời gian lưu trú tổng cộng tối đa 5 năm và nhìn chung không được đưa người thân đi cùng. Đặc định số 2 không giới hạn tổng thời gian và số lần gia hạn, người lao động được đưa vợ hoặc chồng và con nếu đủ điều kiện.</p></details><details class="qa"><summary>Làm theo diện Đặc định có thể đổi công ty hoặc đổi ngành không?</summary><p>Có thể đổi công ty sau khi làm thủ tục thay đổi tư cách lưu trú; thủ tục này phải hoàn tất trước khi làm việc tại công ty mới. Người lao động không được đổi sang ngành khác trong cùng tư cách lưu trú.</p></details><details class="qa"><summary>Thực tập sinh và Đặc định khác nhau ở điểm nào?</summary><p>Mục đích chính thức của thực tập sinh là chuyển giao kỹ năng, chương trình gồm ba giai đoạn với tổng cộng tối đa 5 năm. Diện Đặc định dành cho người làm việc tại các ngành nhận lao động, có thể tiến lên Đặc định số 2 khi đạt yêu cầu. Chương trình thực tập sinh dự kiến được thay bằng chế độ "Việc làm phát triển kỹ năng" (Ikusei) từ 04/2027.</p></details><details class="qa"><summary>Diện Kỹ sư có bắt buộc phải có bằng đại học không?</summary><p>Điều kiện chung là tốt nghiệp đại học (hoặc trình độ tương đương theo hướng dẫn) ngành liên quan, hoặc có từ 10 năm kinh nghiệm thực tế liên quan. Thời gian làm thực tập sinh hoặc diện Đặc định không được tính là kinh nghiệm cho diện này. Cục Xuất nhập cảnh đánh giá từng hồ sơ.</p></details><details class="qa"><summary>Làm việc ở Nhật bao lâu thì có thể xin vĩnh trú?</summary><p>Nguyên tắc theo hướng dẫn của Cục Quản lý Xuất nhập cảnh Nhật Bản: lưu trú liên tục từ 10 năm, trong đó có ít nhất 5 năm với tư cách làm việc; thực tập sinh và Đặc định số 1 không được tính vào 5 năm này. Còn các điều kiện về thu nhập, thuế, bảo hiểm và người bảo lãnh. Hướng dẫn có thể được sửa đổi, người đọc cần đối chiếu trang chính thức.</p></details><details class="qa"><summary>Có thể bảo đảm kết quả phỏng vấn hoặc xin visa hay không?</summary><p>Không ai có thể bảo đảm tuyệt đối. Kết quả phỏng vấn do công ty tiếp nhận quyết định; kết quả cấp COE và visa do cơ quan có thẩm quyền của Nhật Bản quyết định.</p></details>
+<h3>Liên hệ</h3><p>Hotline tư vấn Nhật Bản: <b>0867 090 323</b>. Công ty Cổ phần Quốc tế Khải Ân (KAN), Khu B3, Trường ĐH Lao động Xã hội Cơ sở 2, 1018 Tô Ký, P. Trung Mỹ Tây, TP.HCM. Website: kanvn.com.</p></section>
+
+<section id="tra-cuu"><div class="k">Tra cứu sâu</div><h2>Tra cứu thêm</h2>
+<details class="sau"><summary>Giải thích từ ngữ (11 thuật ngữ)</summary><div class="sau-body"><p class="note">Trong cẩm nang, chạm vào từ gạch chấm để xem nghĩa. Danh sách đầy đủ ở đây.</p><div class="gl"><div><b>Du học sinh (留学生)</b><i>Người học tại Nhật</i>Người sang Nhật học tiếng tại trường Nhật ngữ, sau đó có thể học lên theo trình độ. Người học tiếng tối đa 2 năm.</div><div><b>Thực tập sinh kỹ năng (技能実習)</b><i>Chương trình thực tập kỹ năng</i>Chương trình cho người lao động sang làm việc theo ngành nghề trong thời hạn 1, 3 hoặc 5 năm. Mục đích chính thức là học kỹ năng để mang về nước. Có kỳ thi theo từng giai đoạn.</div><div><b>Ikusei (育成就労)</b><i>Việc làm phát triển kỹ năng</i>Chế độ mới dự kiến thay thế chương trình thực tập sinh từ tháng 04/2027, nhằm đào tạo người lao động đạt trình độ tương đương Đặc định số 1.</div><div><b>Kỹ năng đặc định, Tokutei (特定技能)</b><i>Tư cách lưu trú kỹ năng đặc định</i>Diện làm việc dành cho người đạt bài thi kỹ năng và bài thi tiếng Nhật của ngành. Gồm Đặc định số 1 (tối đa 5 năm) và Đặc định số 2 (không giới hạn thời gian).</div><div><b>Kỹ thuật viên, Kỹ sư (技術・人文知識・国際業務)</b><i>Tư cách lưu trú Kỹ sư, Nhân văn, Quan hệ quốc tế</i>Diện dành cho người làm công việc chuyên môn, thường có bằng cao đẳng hoặc đại học. Lương tương đương người Nhật và được bảo lãnh người thân.</div><div><b>COE (在留資格認定証明書)</b><i>Giấy chứng nhận tư cách lưu trú</i>Giấy do Cục Xuất nhập cảnh Nhật Bản cấp, xác nhận người nước ngoài đủ điều kiện nhập cảnh Nhật Bản theo mục đích đã khai. Có COE thì người lao động mới nộp được hồ sơ xin visa.</div><div><b>Visa</b><i>Thị thực nhập cảnh</i>Giấy phép do Đại sứ quán hoặc Lãnh sự quán Nhật Bản cấp trong hộ chiếu, cho phép nhập cảnh Nhật Bản.</div><div><b>JLPT: N5, N4, N3, N2, N1</b><i>Kỳ thi năng lực tiếng Nhật</i>Kỳ thi chia 5 cấp, từ N5 là thấp nhất đến N1 là cao nhất. Nhiều diện yêu cầu một cấp tối thiểu, ví dụ N5 để học tiếng, N4 để làm việc theo Đặc định.</div><div><b>JFT-Basic (N4)</b><i>Kỳ thi tiếng Nhật cơ bản</i>Kỳ thi kiểm tra tiếng Nhật dùng cho diện Đặc định, mức tương đương N4.</div><div><b>Công ty tiếp nhận (受入れ機関)</b><i>Doanh nghiệp Nhật nhận người lao động</i>Doanh nghiệp tại Nhật Bản ký hợp đồng và nhận người lao động vào làm việc.</div><div><b>Người bảo lãnh</b><i>Người đứng ra bảo đảm tài chính</i>Người thân của người học, cam kết chi trả học phí và chi phí sinh hoạt khi du học. Hồ sơ người bảo lãnh là một phần bắt buộc.</div></div></div></details>
+<details class="sau" id="tra-von"><summary>Tính thử thời gian thu hồi vốn</summary><div class="sau-body"><div id="von"></div></div></details>
+<details class="sau"><summary>Bản chi tiết đầy đủ (bảng phí, thủ tục, điều kiện)</summary><div class="sau-body"><p>Bản chi tiết có toàn bộ bảng phí, thủ tục visa và điều kiện từng diện. <a href="chi-tiet/">Mở bản chi tiết</a>.</p></div></details>
 </section>
-
-<section id="tu-ngu"><div class="k">ĐỌC TRƯỚC</div><h2>Giải thích từ ngữ</h2>
-<p class="note">Phần này dành cho người chưa biết gì về chương trình đi Nhật. Mỗi thuật ngữ gồm tên gốc (tiếng Nhật nếu có), nghĩa tiếng Việt và phần giải thích. Khi gặp từ chưa rõ trong cẩm nang, có thể tra cứu lại tại phần này.</p><div class="gl" id="gl"></div></section>
-
-<section id="chon-dien"><div class="k">CHỌN NHANH</div><h2>Người đọc nên đi diện nào?</h2>
-<p>Bảng dưới đây giúp người chưa biết gì về chương trình đi Nhật, và tư vấn viên mới, xác định nhanh diện phù hợp. Cách dùng: tìm dòng giống hoàn cảnh của mình nhất, sau đó đọc phần giải thích của diện đó ở các mục bên dưới.</p>
-<div class="tw"><table>
-<tr><th>Hoàn cảnh</th><th>Diện nên xem</th><th>Lý do</th></tr>
-<tr><td>18 đến 32 tuổi, tốt nghiệp THPT, muốn sang Nhật học tiếng, sau đó học lên</td><td><a href="#du-hoc">Du học</a></td><td>Chỉ cần tiếng Nhật N5 và hồ sơ người bảo lãnh. Người học tiếng tối đa 2 năm, sau đó học lên theo trình độ.</td></tr>
-<tr><td>18 đến 37 tuổi, chưa từng đến Nhật, lao động phổ thông, chưa có chứng chỉ</td><td><a href="#tts">Thực tập sinh</a></td><td>Không yêu cầu chứng chỉ trước; học 2 đến 4 tuần chờ phỏng vấn, tiếng Nhật được đào tạo trong thời gian chờ visa.</td></tr>
-<tr><td>18 đến 37 tuổi, chưa từng đến Nhật, muốn làm việc lâu dài hơn</td><td><a href="#dd-moi">Đặc định số 1, đi mới</a></td><td>Cần chứng chỉ JFT N4 (khoảng 4 tháng) và chứng chỉ nghề (2 đến 3 tháng). Làm việc 5 năm, có thể tiến lên Đặc định số 2.</td></tr>
-<tr><td>20 đến 37 tuổi, đã từng đến Nhật</td><td><a href="#dd-lai">Đặc định số 1, đi lại</a></td><td>Làm đúng ngành từng học hoặc từng làm thì dùng lại hồ sơ cũ; trái ngành cần N4 và chứng chỉ nghề.</td></tr>
-<tr><td>22 đến 36 tuổi, tốt nghiệp cao đẳng hoặc đại học ngành kỹ thuật</td><td><a href="#ktv">Kỹ thuật viên</a></td><td>Visa không giới hạn thời hạn, lương tương đương người Nhật, được bảo lãnh người thân.</td></tr>
-<tr><td>22 đến 36 tuổi, tốt nghiệp cao đẳng hoặc đại học (kỹ thuật, ngoại ngữ, khách sạn...)</td><td><a href="#ky-su">Kỹ sư</a></td><td>Visa không giới hạn thời hạn; ngành tùy đơn hàng; tiếng Nhật từ N4.</td></tr>
-<tr><td>Muốn đưa vợ hoặc chồng và con đi cùng</td><td>Kỹ thuật viên, Kỹ sư, hoặc Đặc định số 2 về sau</td><td>Đặc định số 1 nhìn chung không được đưa người thân. Kỹ thuật viên, Kỹ sư và Đặc định số 2 được đưa người thân khi đủ điều kiện.</td></tr>
-</table></div>
-<p class="note">Độ tuổi và điều kiện lấy từ chương trình KAN áp dụng tính đến tháng 11/2026 và có thể thay đổi theo đơn hàng. Một số mốc còn đang được đối chiếu, xem tệp CAN-XAC-MINH.</p>
-</section>
-
-<section id="lo-trinh"><div class="k">LỘ TRÌNH</div><h2>Lộ trình đi Nhật theo nhóm, từ thấp lên cao</h2>
-<p>Các chương trình đi Nhật chia thành ba nhóm. Mỗi nhóm xếp từ yêu cầu thấp đến yêu cầu cao. Người đọc xác định mình đang ở bậc nào, sau đó xem bậc tiếp theo cần chuẩn bị gì.</p>
-<div class="box"><b>Đường đi thường gặp:</b> Thực tập sinh (hoặc Du học) → Đặc định số 1 → Đặc định số 2. Người có bằng cao đẳng, đại học đi thẳng diện Kỹ thuật viên hoặc Kỹ sư.</div>
-<div class="grp">NHÓM 1. HỌC TẬP</div>
-<div class="tw"><table>
-<tr><th>Bậc</th><th>Chương trình</th><th>Yêu cầu chính</th><th>Bước tiếp theo</th></tr>
-<tr><td>1</td><td><a href="#du-hoc">Du học</a></td><td>18 đến 32 tuổi, tốt nghiệp THPT, tiếng Nhật N5, hồ sơ người bảo lãnh</td><td>Học lên theo trình độ; sau khi tốt nghiệp xin việc trước khi visa hết hạn</td></tr>
-</table></div>
-<div class="grp">NHÓM 2. LÀM VIỆC THEO KỸ NĂNG</div>
-<div class="tw"><table>
-<tr><th>Bậc</th><th>Chương trình</th><th>Yêu cầu chính</th><th>Bước tiếp theo</th></tr>
-<tr><td>2</td><td><a href="#tts">Thực tập sinh</a></td><td>18 đến 37 tuổi, lao động phổ thông, chưa cần chứng chỉ</td><td>Thời hạn 1, 3 hoặc 5 năm; có thể tiến lên Đặc định số 1</td></tr>
-<tr><td>3</td><td><a href="#dd-moi">Đặc định số 1, đi mới</a></td><td>18 đến 37 tuổi, JFT N4 và chứng chỉ nghề</td><td>Làm việc 5 năm; từ năm thứ 3 có thể thi Đặc định số 2</td></tr>
-<tr><td>4</td><td><a href="#dd-lai">Đặc định số 1, đi lại</a></td><td>20 đến 37 tuổi, đã từng đến Nhật; đúng ngành thì dùng lại hồ sơ cũ</td><td>Làm việc 5 năm; có thể thi Đặc định số 2</td></tr>
-<tr><td>5</td><td>Đặc định số 2</td><td>Đạt kỳ thi của diện Đặc định số 2 (theo quy định hiện hành)</td><td>Không giới hạn thời gian lưu trú; được đưa vợ hoặc chồng và con nếu đủ điều kiện</td></tr>
-</table></div>
-<div class="grp">NHÓM 3. CHUYÊN MÔN</div>
-<div class="tw"><table>
-<tr><th>Bậc</th><th>Chương trình</th><th>Yêu cầu chính</th><th>Bước tiếp theo</th></tr>
-<tr><td>6</td><td><a href="#ktv">Kỹ thuật viên</a></td><td>22 đến 36 tuổi, cao đẳng hoặc đại học ngành kỹ thuật, tiếng Nhật từ N3</td><td>Visa cấp theo từng năm, không giới hạn thời hạn</td></tr>
-<tr><td>7</td><td><a href="#ky-su">Kỹ sư</a></td><td>22 đến 36 tuổi, cao đẳng hoặc đại học, tiếng Nhật từ N4</td><td>Visa cấp theo từng năm, không giới hạn thời hạn; được bảo lãnh người thân</td></tr>
-</table></div>
-<p class="note">Bậc càng cao thì yêu cầu về bằng cấp, tiếng Nhật hoặc chứng chỉ càng cao, đổi lại thời gian lưu trú dài hơn và quyền lợi đi kèm nhiều hơn.</p>
-</section>
-
-<section id="nuoc-nhat"><div class="k">PHẦN 1</div><h2>Nhật Bản trong vài con số</h2>
-<p>Nhật Bản là một trong những thị trường nhận người học và người lao động Việt Nam lớn nhất. Người Việt là một trong những cộng đồng nước ngoài đông nhất tại đây.</p>
-<div class="stats">
-<div class="card stat"><b>~123 triệu</b><span>dân số (điều tra tháng 10/2025), tập trung quanh Tokyo, Osaka và Nagoya</span></div>
-<div class="card stat"><b>~693.800</b><span>người Việt đang sống tại Nhật (cuối tháng 6/2026)</span></div>
-<div class="card stat"><b>+2 giờ</b><span>Nhật Bản sớm hơn Việt Nam 2 tiếng</span></div>
-<div class="card stat"><b>5–6 giờ</b><span>thời gian bay từ Việt Nam đến Tokyo</span></div></div>
-<div class="three">
-<div class="card"><h3>Việc làm</h3>Nhật Bản cần lao động ở nhiều ngành: điều dưỡng, xây dựng, nông nghiệp, thực phẩm, máy móc, ô tô, lái xe và các vị trí kỹ thuật dành cho người có bằng cao đẳng, đại học.</div>
-<div class="card"><h3>Học tập</h3>Trường Nhật ngữ nhận học viên theo 4 kỳ mỗi năm (tháng 1, 4, 7 và 10). Người học tiếng tối đa 2 năm, sau đó học lên theo trình độ.</div>
-<div class="card"><h3>Sinh sống</h3>Người lao động diện kỹ thuật viên và kỹ sư có mức lương tương đương người Nhật và được bảo lãnh người thân. Các diện khác có quyền lợi và giới hạn riêng.</div></div>
-<div class="box"><b>Tiếng Nhật quyết định lộ trình.</b> Mức N5 là yêu cầu để nhập học tiếng; N4 và N3 là yêu cầu phổ biến với diện Đặc định, kỹ thuật viên và kỹ sư. Người chưa có tiếng Nhật vẫn có thể được đào tạo trong thời gian chờ visa.</div>
-<div class="tw"><table>
-<tr><th>Thủ đô</th><td>Tokyo. Các thành phố lớn khác: Osaka, Nagoya, Fukuoka, Sapporo, Hiroshima</td></tr>
-<tr><th>Tiền tệ</th><td>Yên Nhật (JPY). Tỷ giá tham chiếu của KAN: 1 JPY = 170 đồng; tỷ giá thực tế quy đổi theo thời giá (đầu tháng 11/2026 khoảng 167 đồng)</td></tr>
-<tr><th>Ngôn ngữ</th><td>Tiếng Nhật. Đây là điều kiện quan trọng để học tập, làm việc và hòa nhập</td></tr>
-<tr><th>Múi giờ</th><td>Sớm hơn Việt Nam 2 tiếng</td></tr>
-</table></div></section>
-
-<section id="nganh"><div class="k">NGÀNH NGHỀ</div><h2>Ngành nghề phổ biến theo từng diện</h2>
-<p>Người đọc chọn ngành trước, sau đó chọn diện và vùng. Bảng dưới đây gom các ngành KAN đang có đơn hàng và số liệu công bố của Cục Quản lý Xuất nhập cảnh Nhật Bản (ISA).</p>
-<div class="tw"><table>
-<tr><th>Ngành</th><th>Diện thường gặp</th><th>Điều cần biết</th></tr>
-<tr><td><b>Điều dưỡng</b></td><td>Đặc định số 1</td><td>Ngành có nhiều người Đặc định số 1 nhất: 74.745 người (ISA, cuối tháng 3/2026). Ngoài bài thi kỹ năng và tiếng Nhật, có thêm bài thi tiếng Nhật điều dưỡng.</td></tr>
-<tr><td><b>Sản xuất công nghiệp, máy móc</b></td><td>Đặc định số 1, Thực tập sinh (công xưởng), Kỹ thuật viên</td><td>Đứng thứ hai về số người Đặc định số 1: 59.038 người (ISA, cuối tháng 3/2026).</td></tr>
-<tr><td><b>Xây dựng</b></td><td>Đặc định số 1, Thực tập sinh</td><td>51.055 người Đặc định số 1 (ISA, cuối tháng 3/2026). Công việc nặng, cần sức khỏe tốt.</td></tr>
-<tr><td><b>Nông nghiệp</b></td><td>Đặc định số 1</td><td>Phí chương trình thấp hơn một số ngành khác (xem phần Chi phí).</td></tr>
-<tr><td><b>Chế biến thực phẩm</b></td><td>Đặc định số 1 và số 2, Thực tập sinh</td><td>Ngành có nhiều người Đặc định số 2 nhất (28,3%, ISA cuối tháng 12/2025), nên đường tiến lên số 2 rõ ràng.</td></tr>
-<tr><td><b>Ô tô</b></td><td>Đặc định số 1, Kỹ sư (đơn hàng Toyota, Mazda)</td><td>KAN có đơn hàng Tokutei ô tô theo từng mức: đi mới, có tiếng Nhật, đủ hai chứng chỉ.</td></tr>
-<tr><td><b>Lái xe, vận tải</b></td><td>Đặc định số 1</td><td>Cần JLPT N3 (cao hơn các ngành khác). KAN có hỗ trợ học lái xe.</td></tr>
-<tr><td><b>Mộc, thủy sản</b></td><td>Thực tập sinh</td><td>Chương trình thực tập sinh theo nhóm ngành riêng, phí thấp hơn nhóm công xưởng.</td></tr>
-<tr><td><b>Kinh tế, ngoại ngữ, khách sạn</b></td><td>Kỹ sư</td><td>Dành cho người tốt nghiệp cao đẳng, đại học; ngành tùy đơn hàng.</td></tr>
-</table></div>
-<p class="note">Số liệu từ Cục Quản lý Xuất nhập cảnh Nhật Bản (moj.go.jp/isa), tốc báo tháng 3/2026 và cuối tháng 12/2025. Đơn hàng cụ thể thay đổi theo thời điểm; tư vấn viên KAN xác nhận khi lên hồ sơ.</p>
-</section>
-
-<section id="vung"><div class="k">VÙNG LÀM VIỆC</div><h2>Chọn vùng sinh sống và làm việc</h2>
-<p>Cùng một ngành, mức lương tối thiểu theo luật khác nhau giữa các tỉnh, và chi phí sinh hoạt cũng khác nhau. Người đọc nên so sánh vùng trước khi chọn đơn hàng.</p>
-<div class="tw"><table>
-<tr><th>Vùng</th><th>Lương tối thiểu theo giờ (năm tài chính 2026)</th><th>Đặc điểm</th></tr>
-<tr><td><b>Tokyo</b></td><td>1.280 yên, cao nhất cả nước</td><td>Trung tâm kinh tế. Mức lương tối thiểu cao nhất nhưng chi phí sinh hoạt, đặc biệt nhà ở, cũng cao.</td></tr>
-<tr><td><b>Osaka</b></td><td>1.231 yên</td><td>Trung tâm kinh tế lớn thứ hai của Nhật Bản.</td></tr>
-<tr><td><b>Aichi (Nagoya)</b></td><td>Đang bổ sung</td><td>Dẫn đầu cả nước về số người Đặc định số 2: 751 người, chiếm 9,4% (ISA, cuối tháng 12/2025). Vùng công nghiệp, ô tô.</td></tr>
-<tr><td><b>Hokkaido</b></td><td>1.131 yên</td><td>Mức lương tối thiểu thấp hơn mức trung bình cả nước (1.177 yên).</td></tr>
-<tr><td><b>Fukuoka</b></td><td>Đang bổ sung</td><td>Trung tâm của đảo Kyushu, phía Tây Nhật Bản. Đang bổ sung thêm thông tin.</td></tr>
-</table></div>
-<div class="box"><b>Cách chọn vùng:</b> mức lương tối thiểu trung bình cả nước năm tài chính 2026 là 1.177 yên mỗi giờ (tăng 56 yên so với năm trước; hiệu lực từ 10/2026 đến 12/2026 tùy từng tỉnh). Với mỗi đơn hàng, người đọc so sánh ba khoản: lương theo hợp đồng, tiền nhà và chi phí đi lại. Thu nhập thực tế là lương trừ các chi phí này. Tư vấn viên KAN nêu rõ vùng và doanh nghiệp tiếp nhận của từng đơn hàng trước khi người học quyết định.</div>
-<p class="note">Nguồn lương tối thiểu: Bộ Y tế, Lao động và Phúc lợi Nhật Bản (kết quả thẩm định năm 2026). Số liệu có thể thay đổi; người đọc đối chiếu trang chính thức.</p>
-</section>
-
-<section id="so-sanh"><div class="k">PHẦN 2</div><h2>So sánh các diện đi Nhật</h2>
-<div class="tw"><table>
-<tr><th>Diện</th><th>Thời hạn</th><th>Đối tượng</th></tr>
-<tr><td><a href="#du-hoc">Du học</a></td><td>Học tiếng tối đa 2 năm; sau đó học lên theo trình độ</td><td>Người đi học</td></tr>
-<tr><td><a href="#tts">Thực tập sinh</a></td><td>1 năm, 3 năm hoặc 5 năm</td><td>Lao động phổ thông</td></tr>
-<tr><td><a href="#dd-moi">Đặc định</a></td><td>Đặc định số 1: 5 năm. Đặc định số 2: theo quy định hiện hành</td><td>Người có kinh nghiệm hoặc có chứng chỉ</td></tr>
-<tr><td><a href="#ktv">Kỹ thuật viên</a></td><td>Không giới hạn thời hạn visa</td><td>Người có bằng kỹ thuật, đúng yêu cầu của công ty tiếp nhận</td></tr>
-<tr><td><a href="#ky-su">Kỹ sư</a></td><td>Không giới hạn thời hạn visa</td><td>Người có bằng cao đẳng, đại học</td></tr>
-</table></div></section>
-
-<section id="du-hoc"><div class="k">PHẦN 3</div><h2>Du học</h2><div id="g1"></div></section>
-<section id="lao-dong"><div class="k">PHẦN 4</div><h2>Làm việc</h2><div id="g2"></div></section>
-<section id="hieu-ro"><div class="k">BỔ SUNG</div><h2>Hiểu rõ từng diện làm việc</h2>
-<p class="note">Nội dung dưới đây dựa trên thông tin do Cục Quản lý Xuất nhập cảnh Nhật Bản (ISA) và các cơ quan nhà nước Nhật Bản công bố. Điều kiện có thể thay đổi, vui lòng đối chiếu trang chính thức ở phần Liên hệ và nguồn kiểm chứng.</p>
-<h3>Kỹ năng đặc định số 1 và số 2</h3>
-<div class="tw"><table>
-<tr><th></th><th>Đặc định số 1</th><th>Đặc định số 2</th></tr>
-<tr><td>Thời gian lưu trú</td><td>Tổng cộng tối đa 5 năm (theo nguyên tắc chung)</td><td>Không giới hạn tổng thời gian và số lần gia hạn</td></tr>
-<tr><td>Gia đình</td><td>Nhìn chung không được đưa người thân đi cùng</td><td>Được đưa vợ hoặc chồng và con nếu đủ điều kiện</td></tr>
-<tr><td>Hỗ trợ</td><td>Người lao động được công ty hoặc tổ chức hỗ trợ sinh hoạt và đào tạo tiếng Nhật</td><td>Theo quy định hiện hành</td></tr>
-</table></div>
-<p class="note">Danh sách ngành nhận lao động Đặc định gồm nhiều ngành như điều dưỡng, xây dựng, bảo dưỡng ô tô, kho vận, nông nghiệp, sản xuất thực phẩm, nhà hàng. Số ngành thay đổi theo từng thời điểm; danh sách mới nhất được công bố tại ssw.go.jp.</p>
-<h3>Các bước đi theo diện Đặc định</h3>
-<div class="col2"><div class="card"><ol style="margin:0;padding-left:20px">
-<li>Chọn ngành nằm trong danh sách ngành nhận lao động Đặc định.</li>
-<li>Đạt bài thi kỹ năng của đúng ngành và bài thi tiếng Nhật (JFT-Basic hoặc JLPT từ N4 trở lên). Ngành vận tải ô tô và đường sắt cần JLPT N3; ngành điều dưỡng có thêm bài thi tiếng Nhật điều dưỡng.</li>
-<li>Tìm công ty tiếp nhận.</li>
-<li>Phỏng vấn và ký hợp đồng lao động; đọc kỹ điều kiện làm việc bằng văn bản.</li>
-</ol></div><div class="card"><ol start="5" style="margin:0;padding-left:20px">
-<li>Công ty nộp hồ sơ xin Giấy chứng nhận tư cách lưu trú (COE) tại Cục Xuất nhập cảnh.</li>
-<li>Xin visa tại Đại sứ quán hoặc Lãnh sự quán Nhật Bản.</li>
-<li>Nhập cảnh, bắt đầu làm việc và được hướng dẫn hòa nhập.</li>
-</ol><p class="note">Người đã hoàn thành chương trình thực tập sinh kỹ năng thường được miễn thi trong cùng ngành. Muốn đổi công ty, người lao động phải làm thủ tục thay đổi tư cách lưu trú trước khi làm việc tại công ty mới; không được đổi sang ngành khác.</p></div></div>
-<h3>Thực tập sinh kỹ năng</h3>
-<ul>
-<li>Chương trình gồm ba giai đoạn: số 1 (1 năm), số 2 (2 năm) và số 3 (2 năm), tổng cộng tối đa 5 năm.</li>
-<li>Muốn chuyển sang giai đoạn tiếp theo, thực tập sinh phải đạt bài thi kỹ năng tương ứng. Giai đoạn số 3 chỉ áp dụng với công ty tiếp nhận và tổ chức quản lý đủ tiêu chuẩn.</li>
-<li>Điều kiện chung: từ đủ 18 tuổi, có dự định sử dụng kỹ năng đã học sau khi về nước. Yêu cầu tiếng Nhật khác nhau theo ngành.</li>
-<li>Mục đích chính thức của chương trình là chuyển giao kỹ năng. Chương trình sẽ được thay bằng chế độ "Việc làm phát triển kỹ năng" (Ikusei), dự kiến từ 04/2027; lịch chuyển tiếp chi tiết sẽ được cập nhật khi cơ quan chức năng công bố.</li>
-</ul>
-<h3>Kỹ sư, Nhân văn, Quan hệ quốc tế</h3>
-<ul>
-<li>Dành cho công việc chuyên môn, không dành cho lao động phổ thông.</li>
-<li>Điều kiện chung: tốt nghiệp đại học (hoặc trình độ tương đương theo hướng dẫn) ngành liên quan đến công việc, hoặc có từ 10 năm kinh nghiệm thực tế liên quan.</li>
-<li>Thời gian làm thực tập sinh kỹ năng hoặc diện Đặc định không được tính là kinh nghiệm cho diện này.</li>
-<li>Tốt nghiệp trường nghề ở nước ngoài chưa chắc được xem tương đương đại học; Cục Xuất nhập cảnh đánh giá từng hồ sơ.</li>
-</ul>
-</section>
-
-<section id="quy-trinh"><div class="k">PHẦN 5</div><h2>Quy trình từ khi đăng ký đến khi xuất cảnh</h2>
-<p class="note">Quy trình chung dành cho các diện làm việc. Thời gian từng bước phụ thuộc vào đơn hàng, công ty tiếp nhận và cơ quan xét duyệt; tư vấn viên sẽ thông báo cụ thể cho từng hồ sơ.</p>
-<div class="prog" id="s0"></div>
-<p>Từ khi đăng ký đến khi bay, các diện Đặc định và Kỹ sư thường mất 4 đến 6 tháng hoặc 8 đến 12 tháng; thực tập sinh khoảng 6 đến 8 tháng.</p></section>
-
-<section id="chi-phi"><div class="k">PHẦN 6</div><h2>Chi phí</h2>
-<p class="note">Chi phí chia làm 3 lần: lần 1 khi nhập học, lần 2 khi đậu phỏng vấn, lần 3 khi có COE.</p>
-<h3>Kỹ sư</h3><div class="tw"><table id="c1"></table></div>
-<h3>Kỹ năng đặc định</h3><div class="tw"><table id="c2"></table></div>
-<h3>Thực tập sinh</h3><div class="tw"><table id="c3"></table></div>
-<h3>Bao gồm và không bao gồm (các chương trình làm việc)</h3><div class="col2"><!--bao gom/khong bao gom cac chuong trinh lam viec: Tu: de trong, bo sung sau--><div class="card"><h3>Bao gồm</h3><p class="note">Đang bổ sung.</p></div><div class="card"><h3>Không bao gồm</h3><p class="note">Đang bổ sung.</p></div></div><p class="note">Chương trình thực tập sinh đào tạo Ikusei (dự kiến từ 04/2027): KAN sẽ thông báo mức phí khi có chương trình cụ thể.</p>
-<h3>Du học (tham khảo)</h3><div class="tw"><table id="c4"></table></div>
-<div class="col2"><div class="card"><h3>Bao gồm</h3><ul><li>Các khoản ghi trong bảng trên: học phí 1 năm trường Nhật ngữ, phí dịch vụ, chứng thực bằng cấp, dịch thuật và gửi hồ sơ, đào tạo tiếng Nhật và chỗ ở (5 đến 8 tháng), phí xin visa</li></ul></div><div class="card"><h3>Không bao gồm</h3><p class="note">Đang bổ sung.</p></div></div><p class="note">Chi phí du học chia theo khoản và theo lịch của trường, không chia 3 lần. Các khoản bao gồm, chưa bao gồm và lịch thanh toán cần được xác nhận trong hợp đồng hoặc bảng chi phí chính thức trước khi học viên đăng ký. Khoản tính bằng USD được quy đổi theo thời giá.</p>
-</section>
-
-<section id="hoi-dap"><div class="k">PHẦN 7</div><h2>Hỏi đáp</h2>
-<details><summary>Người chưa biết tiếng Nhật nên tham khảo diện nào?</summary><p>Người từ 18 đến 32 tuổi, tốt nghiệp THPT có thể đi du học và học tiếng Nhật từ đầu (cần đạt N5 trước khi nhập học). Với diện làm việc, người học có thể theo thực tập sinh hoặc Đặc định đi mới; tiếng Nhật được đào tạo trong thời gian chờ visa.</p></details>
-<details><summary>Người đã từng đến Nhật có thể quay lại làm việc không?</summary><p>Có thể, theo diện Đặc định số 1 đi lại, dành cho người từ 20 đến 37 tuổi. Nếu làm đúng ngành nghề từng học hoặc từng làm, người học có thể dùng lại hồ sơ cũ. Nếu làm trái ngành, người học cần chứng chỉ tiếng Nhật N4 và chứng chỉ nghề phù hợp.</p></details>
-<details><summary>Làm việc theo diện Đặc định có thể chuyển việc không?</summary><p>Có thể, khi người lao động đã thỏa thuận xong với công ty tiếp nhận. Sau 3 năm làm việc, người lao động có thể thi để lên Đặc định số 2.</p></details>
-<details><summary>Khi nào bắt đầu có lương theo chương trình thực tập sinh?</summary><p>Người học được hưởng trợ cấp trong tháng đầu tiên sau khi xuất cảnh, bắt đầu làm việc từ tháng thứ 2 và nhận lương từ tháng thứ 3.</p></details>
-<details><summary>Có thể bảo đảm kết quả phỏng vấn hoặc xin visa hay không?</summary><p>Không ai có thể bảo đảm tuyệt đối. Kết quả phỏng vấn do công ty tiếp nhận quyết định, kết quả cấp COE và visa do cơ quan có thẩm quyền của Nhật Bản quyết định.</p></details>
-<details><summary>Kỹ năng đặc định số 1 và số 2 khác nhau như thế nào?</summary><p>Đặc định số 1 có thời gian lưu trú tổng cộng tối đa 5 năm và nhìn chung không được đưa người thân đi cùng. Đặc định số 2 không giới hạn tổng thời gian và số lần gia hạn, người lao động được đưa vợ hoặc chồng và con nếu đủ điều kiện.</p></details>
-<details><summary>Người đã làm thực tập sinh có phải thi lại khi chuyển sang diện Đặc định không?</summary><p>Người đã hoàn thành chương trình thực tập sinh kỹ năng thường được miễn thi trong cùng ngành. Nếu chuyển sang ngành khác, người lao động cần đạt bài thi kỹ năng và bài thi tiếng Nhật của ngành đó.</p></details>
-<details><summary>Người lao động diện Đặc định có thể tự đổi công ty hoặc đổi ngành không?</summary><p>Có thể đổi công ty sau khi làm thủ tục thay đổi tư cách lưu trú; thủ tục này phải hoàn tất trước khi làm việc tại công ty mới. Người lao động không được đổi sang ngành khác trong cùng tư cách lưu trú.</p></details>
-<details><summary>Diện Kỹ sư có bắt buộc phải có bằng đại học không?</summary><p>Điều kiện chung là tốt nghiệp đại học (hoặc trình độ tương đương theo hướng dẫn) ngành liên quan đến công việc, hoặc có từ 10 năm kinh nghiệm thực tế liên quan. Thời gian làm thực tập sinh hoặc diện Đặc định không được tính là kinh nghiệm cho diện này. Cục Xuất nhập cảnh đánh giá từng hồ sơ.</p></details>
-<details><summary>Thực tập sinh và Đặc định khác nhau ở điểm nào?</summary><p>Mục đích chính thức của thực tập sinh là chuyển giao kỹ năng, chương trình gồm ba giai đoạn với tổng cộng tối đa 5 năm. Diện Đặc định dành cho người làm việc tại các ngành nhận lao động, có thể tiến lên Đặc định số 2 khi đạt yêu cầu.</p></details>
-<details><summary>Chế độ "Việc làm phát triển kỹ năng" (Ikusei) là gì?</summary><p>Đây là chế độ dự kiến thay thế chương trình thực tập sinh kỹ năng từ 04/2027, nhằm đào tạo người lao động đạt trình độ tương đương Đặc định số 1. Yêu cầu tiếng Nhật và lịch chuyển tiếp chi tiết sẽ được cập nhật khi cơ quan chức năng công bố.</p></details>
-</section>
-
-<section id="huong-dan"><div class="k">DÀNH CHO TƯ VẤN VIÊN MỚI</div><h2>Cách tư vấn một khách hàng đi Nhật</h2>
-<p>Tư vấn viên chưa có kinh nghiệm có thể tư vấn đúng bằng cách làm theo năm bước dưới đây, sử dụng chính cẩm nang này làm tài liệu.</p>
-<div class="prog"><div class="st"><i>1</i><span><b>Hỏi bốn thông tin cơ bản:</b> năm sinh; bằng cấp cao nhất và điểm học bạ; trình độ ngoại ngữ hiện có (JLPT); mục tiêu là học hay làm việc, gia đình hỗ trợ tài chính đến đâu.</span></div>
-<div class="st"><i>2</i><span><b>Đối chiếu bảng "Người đọc nên đi diện nào" hoặc "Chọn nhanh"</b> để xác định diện, sau đó chọn ngành và vùng ở các mục tương ứng.</span></div>
-<div class="st"><i>3</i><span><b>Giải thích diện đã chọn bằng lời đơn giản:</b> dành cho ai, cần điều kiện gì, mất bao lâu, và sau đó có thể đi tiếp đến đâu (xem Lộ trình). Khi gặp từ lạ, mở phần Giải thích từ ngữ.</span></div>
-<div class="st"><i>4</i><span><b>Nêu chi phí đúng mẫu:</b> phí tổng, từng đợt thanh toán, phần bao gồm và phần không bao gồm. Chỉ nêu số có trong cẩm nang; thông tin nào chưa có thì nói sẽ xác nhận lại, không tự suy đoán.</span></div>
-<div class="st"><i>5</i><span><b>Chốt bước tiếp theo:</b> hẹn khảo sát hồ sơ, gửi danh sách giấy tờ cần chuẩn bị, hẹn lịch gặp lần sau.</span></div></div>
-<div class="box"><b>Những điều không nói với khách:</b> không hứa chắc đỗ visa hoặc phỏng vấn; không nói "hoàn 100%"; không nói "giá rẻ" hay so sánh với trung tâm khác khi chưa có bằng chứng; không nêu điều kiện hoặc số tiền ngoài cẩm nang. Câu nên dùng: "Kết quả do cơ quan có thẩm quyền quyết định. KAN hỗ trợ hồ sơ theo hợp đồng."</div>
-<p class="note">Tự kiểm tra sau mỗi buổi tư vấn: khách thuộc diện nào, còn thiếu giấy tờ hoặc điều kiện gì, khách đã hiểu chi phí gồm và không gồm những khoản nào chưa.</p>
-</section>
-
-<section id="lien-he"><div class="k">PHẦN 8</div><h2>Liên hệ và nguồn kiểm chứng</h2>
-<div class="two"><div class="card"><h3>Trang chính thức</h3><ul>
-<li><a href="https://www.moj.go.jp/isa/" target="_blank" rel="noopener">www.moj.go.jp/isa</a>: Cục Quản lý xuất nhập cảnh và lưu trú Nhật Bản, nơi xét cấp COE</li>
-<li><a href="https://www.vn.emb-japan.go.jp" target="_blank" rel="noopener">www.vn.emb-japan.go.jp</a>: Đại sứ quán Nhật Bản tại Việt Nam, thông tin về visa</li></ul></div>
-<div class="card"><h3>Công ty Cổ phần Quốc tế Khải Ân (KAN)</h3><p>1018 Tô Ký, P. Trung Mỹ Tây, TP.HCM.</p><p>Hotline: <b>0867 090 323</b><br>Website: kanvn.com</p></div></div>
-<p class="warn">Tài liệu tổng hợp chương trình do KAN áp dụng tính đến tháng 11/2026, nhằm cung cấp thông tin ban đầu cho người tìm hiểu và không thay thế tư vấn pháp lý. Quy định pháp luật, điều kiện của công ty tiếp nhận và yêu cầu của cơ quan xuất nhập cảnh có thể thay đổi; do đó, từng hồ sơ cần được xác nhận lại trước khi nộp.</p></section>
+<p class="warn">Tài liệu tổng hợp chương trình do KAN áp dụng tính đến tháng 11/2026, cung cấp thông tin ban đầu cho người tìm hiểu và không thay thế tư vấn pháp lý. Thu nhập và thời gian thu hồi vốn chỉ là ước tính để so sánh. KAN không cam kết kết quả phỏng vấn, visa, việc làm hay thu nhập.</p>
 </main>
+<nav class="dock"><a href="#tong-quan"><b>1</b>Tổng quan</a><a href="#huong-di"><b>2</b>Hướng đi</a><a href="#chon"><b>3</b>Chọn</a><a href="#the-dien"><b>4</b>Thẻ diện</a><a href="#buoc"><b>6</b>Bước</a><a class="goi2" href="tel:0867090323"><b>Gọi</b>tư vấn</a></nav>
+<script>window.GLOSS=[["Du học sinh (留学生)","Người học tại Nhật","Người sang Nhật học tiếng tại trường Nhật ngữ, sau đó có thể học lên theo trình độ. Người học tiếng tối đa 2 năm."],["Thực tập sinh kỹ năng (技能実習)","Chương trình thực tập kỹ năng","Chương trình cho người lao động sang làm việc theo ngành nghề trong thời hạn 1, 3 hoặc 5 năm. Mục đích chính thức là học kỹ năng để mang về nước. Có kỳ thi theo từng giai đoạn."],["Ikusei (育成就労)","Việc làm phát triển kỹ năng","Chế độ mới dự kiến thay thế chương trình thực tập sinh từ tháng 04/2027, nhằm đào tạo người lao động đạt trình độ tương đương Đặc định số 1."],["Kỹ năng đặc định, Tokutei (特定技能)","Tư cách lưu trú kỹ năng đặc định","Diện làm việc dành cho người đạt bài thi kỹ năng và bài thi tiếng Nhật của ngành. Gồm Đặc định số 1 (tối đa 5 năm) và Đặc định số 2 (không giới hạn thời gian)."],["Kỹ thuật viên, Kỹ sư (技術・人文知識・国際業務)","Tư cách lưu trú Kỹ sư, Nhân văn, Quan hệ quốc tế","Diện dành cho người làm công việc chuyên môn, thường có bằng cao đẳng hoặc đại học. Lương tương đương người Nhật và được bảo lãnh người thân."],["COE (在留資格認定証明書)","Giấy chứng nhận tư cách lưu trú","Giấy do Cục Xuất nhập cảnh Nhật Bản cấp, xác nhận người nước ngoài đủ điều kiện nhập cảnh Nhật Bản theo mục đích đã khai. Có COE thì người lao động mới nộp được hồ sơ xin visa."],["Visa","Thị thực nhập cảnh","Giấy phép do Đại sứ quán hoặc Lãnh sự quán Nhật Bản cấp trong hộ chiếu, cho phép nhập cảnh Nhật Bản."],["JLPT: N5, N4, N3, N2, N1","Kỳ thi năng lực tiếng Nhật","Kỳ thi chia 5 cấp, từ N5 là thấp nhất đến N1 là cao nhất. Nhiều diện yêu cầu một cấp tối thiểu, ví dụ N5 để học tiếng, N4 để làm việc theo Đặc định."],["JFT-Basic (N4)","Kỳ thi tiếng Nhật cơ bản","Kỳ thi kiểm tra tiếng Nhật dùng cho diện Đặc định, mức tương đương N4."],["Công ty tiếp nhận (受入れ機関)","Doanh nghiệp Nhật nhận người lao động","Doanh nghiệp tại Nhật Bản ký hợp đồng và nhận người lao động vào làm việc."],["Người bảo lãnh","Người đứng ra bảo đảm tài chính","Người thân của người học, cam kết chi trả học phí và chi phí sinh hoạt khi du học. Hồ sơ người bảo lãnh là một phần bắt buộc."]];</script>
+<script>(function(){function fmt(n,d){return Number(n).toLocaleString('vi-VN',{maximumFractionDigits:d==null?1:d})}
+window.vonKhoiTao=function(c){var root=document.getElementById(c.id);if(!root)return;
+function tinh(p,o){o=o||{};var tt=o.thuNhap!=null?o.thuNhap:p.thuNhap,kt=o.khauTru!=null?o.khauTru:p.khauTru,ct=o.chiTieu!=null?o.chiTieu:p.chiTieu,cp=o.chiPhi!=null?o.chiPhi:p.chiPhi,rt=o.rate!=null?o.rate:c.rate;var net=tt*(1-kt/100),tk=net-ct;return{net:net,tk:tk,thang:tk>0?(cp*1e6/rt)/tk:null}}
+function kq(r){return r.thang==null?'Chưa thu hồi được với số liệu này':fmt(r.thang,1)+' tháng (khoảng '+fmt(r.thang/12,1)+' năm)'}
+var h='<p class="note">'+c.ghiChu+'</p><p><label>Chương trình: <select id="'+c.id+'-ct" style="padding:6px;max-width:100%">'+c.presets.map(function(p,i){return '<option value="'+i+'">'+p.ten+'</option>'}).join('')+'</select></label></p><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px">'
++[['cp','Chi phí chương trình (triệu đồng)'],['tn','Thu nhập trước thuế mỗi tháng ('+c.donVi+')'],['kt','Khấu trừ thuế, bảo hiểm (%)'],['ch','Chi tiêu mỗi tháng ('+c.donVi+')'],['rt','Tỷ giá (đồng cho 1 '+c.donViGoc+')']].map(function(x){return '<label>'+x[1]+'<br><input type="number" id="'+c.id+'-'+x[0]+'" style="padding:6px;width:100%" min="0"></label>'}).join('')+'</div><p style="font-weight:700" id="'+c.id+'-kq"></p>';
+root.innerHTML=h;function g(s){return document.getElementById(c.id+'-'+s)}
+function nap(){var p=c.presets[g('ct').value];g('cp').value=p.chiPhi;g('tn').value=p.thuNhap;g('kt').value=p.khauTru;g('ch').value=p.chiTieu;g('rt').value=c.rate;cap()}
+function cap(){var p=c.presets[g('ct').value];var r=tinh(p,{chiPhi:+g('cp').value,thuNhap:+g('tn').value,khauTru:+g('kt').value,chiTieu:+g('ch').value,rate:+g('rt').value||c.rate});g('kq').textContent='Thu nhập thực nhận khoảng '+fmt(r.net,0)+' '+c.donVi+' mỗi tháng, tiết kiệm khoảng '+fmt(r.tk,0)+' '+c.donVi+' mỗi tháng. Thời gian thu hồi vốn: '+kq(r)+'.'}
+g('ct').onchange=nap;['cp','tn','kt','ch','rt'].forEach(function(s){g(s).oninput=cap});nap();window.vonChon=function(i){g('ct').value=i;nap()}}})();
+vonKhoiTao({"id":"von","donVi":"triệu đồng","donViGoc":"triệu đồng","rate":1000000,"ghiChu":"Các con số là ví dụ tính toán, không phải cam kết. Chi phí theo bảng phí KAN; thu nhập là số tham khảo theo bảng lộ trình KAN (nếu là số trước thuế, người đọc nhập tỷ lệ khấu trừ thực tế); chi tiêu ví dụ 12 triệu đồng mỗi tháng. Thực tập sinh được hưởng trợ cấp trong tháng đầu, làm việc từ tháng thứ 2 và nhận lương từ tháng thứ 3.","presets":[{"ten":"Thực tập sinh: công xưởng (116,5 triệu đồng)","chiPhi":116.5,"thuNhap":30,"khauTru":0,"chiTieu":12},{"ten":"Thực tập sinh: mộc, thủy sản (96,5 triệu đồng)","chiPhi":96.5,"thuNhap":30,"khauTru":0,"chiTieu":12},{"ten":"Thực tập sinh: xây dựng (86,5 triệu đồng)","chiPhi":86.5,"thuNhap":30,"khauTru":0,"chiTieu":12},{"ten":"Đặc định đi mới: điều dưỡng, xây dựng, nông nghiệp (60 triệu đồng)","chiPhi":60,"thuNhap":35,"khauTru":0,"chiTieu":12},{"ten":"Đặc định đi mới: thực phẩm, máy móc (70 triệu đồng)","chiPhi":70,"thuNhap":35,"khauTru":0,"chiTieu":12},{"ten":"Đặc định đi mới: ô tô (108 triệu đồng)","chiPhi":108,"thuNhap":35,"khauTru":0,"chiTieu":12},{"ten":"Đặc định đi lại: điều dưỡng, xây dựng, nông nghiệp (22 triệu đồng)","chiPhi":22,"thuNhap":35,"khauTru":0,"chiTieu":12},{"ten":"Kỹ sư Toyota, Mazda (86 triệu đồng)","chiPhi":86,"thuNhap":35,"khauTru":0,"chiTieu":12},{"ten":"Kỹ sư kinh tế N2 (55 triệu đồng)","chiPhi":55,"thuNhap":35,"khauTru":0,"chiTieu":12}]});</script>
 <script>
-const $=id=>document.getElementById(id);
-const gl=[
-["Du học sinh (留学生)","Người học tại Nhật","Người sang Nhật học tiếng tại trường Nhật ngữ, sau đó có thể học lên theo trình độ. Người học tiếng tối đa 2 năm."],
-["Thực tập sinh kỹ năng (技能実習)","Chương trình thực tập kỹ năng","Chương trình cho người lao động sang làm việc theo ngành nghề trong thời hạn 1, 3 hoặc 5 năm. Mục đích chính thức là học kỹ năng để mang về nước. Có kỳ thi theo từng giai đoạn."],
-["Ikusei (育成就労)","Việc làm phát triển kỹ năng","Chế độ mới dự kiến thay thế chương trình thực tập sinh từ tháng 04/2027, nhằm đào tạo người lao động đạt trình độ tương đương Đặc định số 1."],
-["Kỹ năng đặc định, Tokutei (特定技能)","Tư cách lưu trú kỹ năng đặc định","Diện làm việc dành cho người đạt bài thi kỹ năng và bài thi tiếng Nhật của ngành. Gồm Đặc định số 1 (tối đa 5 năm) và Đặc định số 2 (không giới hạn thời gian)."],
-["Kỹ thuật viên, Kỹ sư (技術・人文知識・国際業務)","Tư cách lưu trú Kỹ sư, Nhân văn, Quan hệ quốc tế","Diện dành cho người làm công việc chuyên môn, thường có bằng cao đẳng hoặc đại học. Lương tương đương người Nhật và được bảo lãnh người thân."],
-["COE (在留資格認定証明書)","Giấy chứng nhận tư cách lưu trú","Giấy do Cục Xuất nhập cảnh Nhật Bản cấp, xác nhận người nước ngoài đủ điều kiện nhập cảnh Nhật Bản theo mục đích đã khai. Có COE thì người lao động mới nộp được hồ sơ xin visa."],
-["Visa","Thị thực nhập cảnh","Giấy phép do Đại sứ quán hoặc Lãnh sự quán Nhật Bản cấp trong hộ chiếu, cho phép nhập cảnh Nhật Bản."],
-["JLPT: N5, N4, N3, N2, N1","Kỳ thi năng lực tiếng Nhật","Kỳ thi chia 5 cấp, từ N5 là thấp nhất đến N1 là cao nhất. Nhiều diện yêu cầu một cấp tối thiểu, ví dụ N5 để học tiếng, N4 để làm việc theo Đặc định."],
-["JFT-Basic (N4)","Kỳ thi tiếng Nhật cơ bản","Kỳ thi kiểm tra tiếng Nhật dùng cho diện Đặc định, mức tương đương N4."],
-["Công ty tiếp nhận (受入れ機関)","Doanh nghiệp Nhật nhận người lao động","Doanh nghiệp tại Nhật Bản ký hợp đồng và nhận người lao động vào làm việc."],
-["Người bảo lãnh","Người đứng ra bảo đảm tài chính","Người thân của người học, cam kết chi trả học phí và chi phí sinh hoạt khi du học. Hồ sơ người bảo lãnh là một phần bắt buộc."]
-];
-$('gl').innerHTML=gl.map(r=>`<div class="card"><h3>${r[0]}</h3><p style="margin:2px 0 6px;font-weight:700">${r[1]}</p>${r[2]}</div>`).join('');
-const L=["Đối tượng","Điều kiện","Quy trình","Sau khi xuất cảnh"];
-const P=[
-["du-hoc","Du học","Học tiếng Nhật và học lên","Từ 18 đến 32 tuổi, tốt nghiệp THPT trở lên.","Tiếng Nhật N5. Hồ sơ người bảo lãnh.","Đăng ký (chọn kỳ nhập học 1, 4, 7 hoặc 10, chọn vùng, chọn trường) → chuẩn bị tiếng Nhật N5 và hồ sơ người bảo lãnh → nhập học theo kỳ đã đăng ký → tốt nghiệp trường tiếng, lên chuyên ngành theo lựa chọn → tìm việc trước khi visa hết hạn.","Học tiếng tối đa 2 năm, sau đó học lên theo trình độ. Sau khi tốt nghiệp, người học đi xin việc trước khi visa hết hạn."],
-["tts","Thực tập sinh","Chương trình thực tập sinh (Ikusei, dự kiến 04/2027)","Từ 18 đến 37 tuổi, lao động phổ thông.","Khai hồ sơ, khám sức khỏe, tập huấn tác phong Nhật, học chờ phỏng vấn 2 đến 4 tuần.","Đăng ký → phỏng vấn (tay nghề, vấn đáp) → chờ visa, học tiếng Nhật N5, tác phong Nhật và chuyên ngành, kiểm tra tiếng theo tháng, tối thiểu 4 tháng → xuất cảnh.","Học 1 tháng được hưởng trợ cấp, làm việc từ tháng thứ 2, nhận lương từ tháng thứ 3. Thực tập sinh số 1: 1 năm, có kỳ thi ở tháng thứ 8. Thực tập sinh số 2: năm 2 và năm 3, có kỳ thi ở năm thứ 3. Sau đó có thể chuyển lên Đặc định."],
-["dd-moi","Đặc định số 1, đi mới","Dành cho người chưa từng đến Nhật","Từ 18 đến 37 tuổi, chưa từng đến Nhật Bản.","Chứng chỉ JFT N4 (khoảng 4 tháng). Chứng chỉ nghề (2 đến 3 tháng). Người chưa đủ chứng chỉ vẫn được tham gia phỏng vấn.","Chọn ngành nghề, đăng ký → học lấy chứng chỉ → phỏng vấn → xuất cảnh sau 2 đến 6 tháng, về công ty tiếp nhận ngay sau khi nhập cảnh và làm việc sau 3 ngày.","Làm việc 5 năm. Từ năm thứ 3 có thể thi Đặc định số 2. Có thể chuyển việc khi đã thỏa thuận xong với công ty tiếp nhận."],
-["dd-lai","Đặc định số 1, đi lại","Dành cho người từng đến Nhật","Từ 20 đến 37 tuổi, đã từng đến Nhật Bản.","Đúng ngành nghề từng học, từng làm: nộp hồ sơ cũ và hồ sơ mới. Trái ngành: cần chứng chỉ phù hợp (N4 và chứng chỉ nghề).","Đăng ký → kiểm tra tiếng → phỏng vấn → chờ visa 2 đến 6 tháng → xuất cảnh sau 2 đến 6 tháng, về công ty tiếp nhận ngay và làm việc sau 3 ngày.","Làm việc 5 năm. Từ năm thứ 3 có thể thi Đặc định số 2. Có thể chuyển việc khi đã thỏa thuận xong với công ty tiếp nhận."],
-["ktv","Kỹ thuật viên","Visa kỹ thuật","Từ 22 đến 36 tuổi, tốt nghiệp cao đẳng hoặc đại học ngành kỹ thuật.","Bằng thuộc ngành kỹ thuật, chuyên ngành đúng với ngành nghề của công ty tiếp nhận. Tiếng Nhật từ N3 (có chứng chỉ), N2 hoặc N1.","Phỏng vấn → chờ COE khoảng 4 đến 6 tháng → xin visa.","Visa cấp theo từng năm, không giới hạn thời hạn. Lương tương đương người Nhật. Được bảo lãnh người thân."],
-["ky-su","Kỹ sư","Visa kỹ sư","Từ 22 đến 36 tuổi, tốt nghiệp cao đẳng hoặc đại học trở lên.","Chuyên ngành kỹ thuật, hoặc ngoại ngữ, khách sạn và các ngành khác tùy đơn hàng. Tiếng Nhật từ N4 (có chứng chỉ), N3, N2 hoặc N1.","Phỏng vấn → chờ COE khoảng 4 đến 12 tháng → xin visa.","Visa cấp theo từng năm, không giới hạn thời hạn. Lương tương đương người Nhật. Được bảo lãnh người thân."]];
-function card(p){return `<div class="prog" id="${p[0]}"><span class="tag">${p[1]}</span><h3>${p[2]}</h3><dl>`+L.map((l,i)=>`<dt>${l}</dt><dd>${p[3+i]}</dd>`).join('')+`</dl></div>`}
-$('g1').innerHTML=card(P[0]);
-$('g2').innerHTML=P.slice(1).map(card).join('');
-const steps=["Đăng ký","Đào tạo","Phỏng vấn","Thông báo kết quả phỏng vấn","Hoàn thiện hồ sơ","Trình Cục Xuất nhập cảnh","Nhận COE","Xuất cảnh","Sau xuất cảnh"];
-$('s0').innerHTML=steps.map((t,i)=>`<div class="st"><i>${i+1}</i><span>${t}</span></div>`).join('');
-const v=n=>n.toLocaleString('vi-VN')+' đ';
-const row=r=>`<tr><td>${r[0]}</td>`+(r[1]!==undefined?`<td>${r[1]}</td>`:'')+r.slice(2).map(x=>`<td class="n">${v(x*1e6)}</td>`).join('')+'</tr>';
-const H='<th>Phí tổng</th><th>Lần 1 – Nhập học</th><th>Lần 2 – Đậu phỏng vấn</th><th>Lần 3 – Có COE</th>';
-$('c1').innerHTML='<tr><th>Chương trình</th><th>Ghi chú</th>'+H+'</tr>'+[["Kỹ sư Toyota (chưa có tiếng Nhật)","",86,20,36,30],["Kỹ sư Toyota (N4)","",86,20,36,30],["Kỹ sư Mazda (chưa có tiếng Nhật)","",86,20,36,30],["Kỹ sư Mazda (N5 đến N4)","",86,20,36,30],["NMF","",98,20,36,42],["Kỹ sư kinh tế (N2)","",55,5,30,20],["Kỹ sư kỹ thuật (không tiếng Nhật)","",125,20,60,45],["Kỹ sư kỹ thuật (N4)","",100,5,45,50],["Kỹ sư kỹ thuật (N3)","",80,5,40,35]].map(row).join('');
-$('c2').innerHTML='<tr><th>Chương trình</th><th>Ghi chú</th>'+H+'</tr>'+[["Tokutei ô tô, đi mới","",108,20,50,38],["Tokutei ô tô, có tiếng Nhật, chưa có chứng chỉ","3.000 USD quy đổi theo thời giá, cộng 10.000.000 đ phí đào tạo",88,10,40,38],["Tokutei ô tô, có N4, chưa có chứng chỉ nghề","2.500 USD quy đổi theo thời giá",65,10,30,25],["Tokutei ô tô, đủ 2 chứng chỉ","2.000 USD quy đổi theo thời giá",52,10,30,12],["Tokutei đi mới: điều dưỡng, xây dựng, nông nghiệp","",60,10,30,20],["Tokutei đi mới: thực phẩm, máy móc","",70,10,30,30],["Tokutei đi mới: lái xe","Hỗ trợ học lái xe 10.000.000 đ",90,10,40,40],["Tokutei đi lại: điều dưỡng, xây dựng, nông nghiệp","",22,5,10,7],["Tokutei đi lại: thực phẩm, máy móc","",25,5,10,10]].map(row).join('');
-$('c3').innerHTML='<tr><th>Chương trình</th><th>Ghi chú</th>'+H+'</tr>'+[["Thực tập sinh: công xưởng","1.500.000 đ chi phí cơ sở vật chất",116.5,10,60,46.5],["Thực tập sinh: mộc, thủy sản","1.500.000 đ chi phí cơ sở vật chất",96.5,10,60,26.5],["Thực tập sinh: xây dựng","1.500.000 đ chi phí cơ sở vật chất",86.5,10,50,26.5]].map(row).join('');
-const f=n=>n.toLocaleString('vi-VN')+' đ';
-$('c4').innerHTML='<tr><th>Khoản mục</th><th>Số tiền</th><th>Ghi chú</th></tr>'+[["Học phí 1 năm trường Nhật ngữ",144500000,"850.000 JPY, tỷ giá tham chiếu 170"],["Phí dịch vụ",15000000,""],["Chứng thực bằng cấp, dịch thuật, gửi hồ sơ",5000000,"Khi đăng ký"],["Đào tạo tiếng Nhật và chỗ ở (5 đến 8 tháng)",15000000,"Trong vòng 2 tuần khi nhập học"],["Phí xin visa",700000,""],["Chứng minh sổ tiết kiệm",6000000,"Chỉ áp dụng khi gia đình không tự chứng minh"],["Vé máy bay","Dự kiến 6.000.000 đ","Chưa xác nhận"]].map(r=>`<tr><td>${r[0]}</td><td class="n">${typeof r[1]==='number'?f(r[1]):r[1]}</td><td>${r[2]}</td></tr>`).join('');
-(function(){const isl=[
-[[140.9,41.5],[140.35,41.25],[139.9,40.6],[139.8,39.7],[139.8,38.9],[139.0,37.9],[137.3,37.5],[137.2,36.8],[136.0,35.65],[135.2,35.55],[134.2,35.55],[133.0,35.55],[131.4,34.4],[130.9,34.0],[131.8,33.95],[132.4,34.2],[133.9,34.55],[135.2,34.65],[135.0,34.2],[135.75,33.43],[136.9,34.3],[136.8,34.7],[137.0,34.6],[137.7,34.65],[138.2,34.6],[138.85,34.65],[139.15,35.25],[139.65,35.15],[139.85,34.9],[140.0,35.3],[140.85,35.7],[140.6,36.4],[141.0,37.0],[141.0,38.25],[141.5,38.3],[141.9,39.5],[142.0,40.0],[141.9,40.4],[141.5,40.5],[141.45,41.2],[141.2,41.4]],
-[[141.95,45.5],[142.9,44.7],[144.3,44.0],[145.2,44.3],[145.8,43.35],[144.4,42.95],[143.3,42.0],[142.0,42.45],[141.0,42.3],[140.7,41.8],[140.1,41.45],[140.1,42.5],[140.6,43.2],[141.2,43.3],[141.5,44.2],[141.65,45.0],[141.7,45.45]],
-[[130.95,33.95],[131.9,33.6],[131.7,32.7],[131.4,31.4],[130.65,31.0],[130.2,31.3],[130.2,32.1],[130.15,32.7],[129.8,33.2],[129.7,33.5],[130.4,33.6]],
-[[132.7,34.0],[133.7,34.3],[134.6,34.2],[134.7,33.8],[134.2,33.25],[133.5,33.4],[133.0,32.75],[132.5,33.3],[132.1,33.5]]];
-const X=o=>((o-129.3)*11.8+10).toFixed(1),Y=a=>((45.8-a)*15.5+10).toFixed(1);
-const c=[['Tokyo',139.7,35.7,1],['Osaka',135.5,34.7],['Nagoya',136.9,35.2],['Fukuoka',130.4,33.6],['Sapporo',141.35,43.06],['Hiroshima',132.5,34.4]];
-document.getElementById('map').innerHTML=isl.map(p=>'<polygon points="'+p.map(q=>X(q[0])+','+Y(q[1])).join(' ')+'" fill="rgba(255,255,255,.1)" stroke="rgba(255,255,255,.45)" stroke-width="1.5" stroke-linejoin="round"/>').join('')+c.map(q=>`<circle cx="${X(q[1])}" cy="${Y(q[2])}" r="3" fill="#f2b134"/>`+(q[3]?`<circle cx="${X(q[1])}" cy="${Y(q[2])}" r="7" fill="none" stroke="#f2b134"/>`:'')+`<text x="${+X(q[1])-(q[0]==='Tokyo'?0:0)+9}" y="${+Y(q[2])+3}" font-size="10" fill="#dbe6f0" font-family="sans-serif">${q[0]}</text>`).join('');})();
-const ls=[...document.querySelectorAll('#nav a')],ss=ls.map(a=>document.querySelector(a.getAttribute('href')));
-addEventListener('scroll',()=>{let i=0;ss.forEach((s,j)=>{if(s.getBoundingClientRect().top<120)i=j});ls.forEach((a,j)=>a.classList.toggle('on',j==i))});
-</script>
-<script>if('serviceWorker' in navigator){addEventListener('load',function(){navigator.serviceWorker.register('../sw.js').catch(function(){})})}</script>
-<style>.kan-mk{position:fixed;right:14px;bottom:14px;z-index:9999;background:#12395c;color:#fff;font:600 13px/1 'Be Vietnam Pro',system-ui,sans-serif;padding:11px 16px;border-radius:999px;text-decoration:none;box-shadow:0 2px 10px rgba(0,0,0,.3)}@media print{.kan-mk{display:none}}</style><a class="kan-mk" href="../">Đổi thị trường</a>
-</body>
-</html>
+(function(){
+ function mo(id){var e=document.getElementById(id);if(!e)return;var p=e;while(p){if(p.tagName==='DETAILS')p.open=true;p=p.parentElement}setTimeout(function(){e.scrollIntoView({behavior:'smooth',block:'start'})},60)}
+ document.addEventListener('click',function(ev){var a=ev.target.closest('a[data-mo]');if(a){ev.preventDefault();mo(a.getAttribute('data-mo'))}
+  var v=ev.target.closest('a[data-von]');if(v){ev.preventDefault();var s=document.getElementById('tra-von');if(s)s.open=true;if(window.vonChon)window.vonChon(+v.getAttribute('data-von'));mo('tra-von')}});
+ if(location.hash&&location.hash.length>1)mo(location.hash.slice(1));
+ // chu thich thuat ngu: cham vao tu thi hien nghia
+ var GL=window.GLOSS||[];var pop=document.createElement('div');pop.className='pop';pop.style.display='none';document.body.appendChild(pop);
+ function boc(root){GL.forEach(function(g,idx){var re=new RegExp('(^|[^\\p{L}\\p{N}])('+g[0].replace(/[.*+?^$()|[\]\\]/g,'\\$&')+')(?![\\p{L}\\p{N}])','u');var w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{acceptNode:function(n){return n.parentElement.closest('summary,.pop,.tu,script,style,select,option,button,details.sau')?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT}});var n;while((n=w.nextNode())){var m=re.exec(n.nodeValue);if(m){var i=m.index+m[1].length;var sp=document.createElement('span');sp.className='tu';sp.tabIndex=0;sp.setAttribute('data-g',idx);sp.textContent=m[2];var after=n.splitText(i);after.nodeValue=after.nodeValue.slice(m[2].length);n.parentNode.insertBefore(sp,after);break}}})}
+ boc(document.getElementById('nd'));
+ document.addEventListener('click',function(ev){var t=ev.target.closest('.tu');if(!t){pop.style.display='none';return}var g=GL[+t.getAttribute('data-g')];pop.innerHTML='<b>'+g[0]+'</b>: '+g[1]+'<br>'+g[2];pop.style.display='block';var r=t.getBoundingClientRect();pop.style.left=Math.max(8,Math.min(window.scrollX+r.left,window.scrollX+document.documentElement.clientWidth-320))+'px';pop.style.top=(window.scrollY+r.bottom+6)+'px'});
+ if('serviceWorker' in navigator){addEventListener('load',function(){navigator.serviceWorker.register('../sw.js').catch(function(){})})}
+})();</script>
+</body></html>
